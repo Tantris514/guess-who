@@ -2,7 +2,7 @@
 
 Jeu multijoueur Unreal Engine 5.8. Manoir Ashcombe, 1932 : tous les joueurs sont déguisés en invités parmi des dizaines de PNJ. Chacun cherche les autres, et le dernier debout gagne.
 
-Ce dépôt contient le code, les scripts et les documents. Il ne contient **pas** le contenu du jeu (`Content/`), le moteur ni les builds : il ne suffit donc pas pour compiler ou jouer.
+Ce dépôt contient le code, les scripts, les documents et le contenu du jeu (`GuessWho/Content`, en Git LFS : installez `git lfs` avant de cloner). Il ne contient **pas** le moteur (Unreal Engine 5.8, à installer chez Epic), les builds, les fichiers bruts de génération ni les gabarits d'Epic (`Characters/Mannequins`, `ThirdPerson`, `Input`). Ces gabarits viennent du modèle Third Person d'Unreal et sont à rajouter pour ouvrir le projet.
 
 - Règles et commandes : [GUIDE_JOUEUR.md](GUIDE_JOUEUR.md)
 - Conception : [PLAN.md](PLAN.md)

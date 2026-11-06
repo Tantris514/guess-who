@@ -1148,6 +1148,17 @@ def looks(tag):
 PLANS['mask'] = [(12, 'GWDevQuickTest 1'), (1, 'GWDevAutoEvents 0'), (1, 'GWDevNPCCount 30'), (8, 'GWDevGiveItem 14'), (2, 'GWDevInvState'), (1, looks('before')),
                  (0.5, 'GWUseItem 14 0'), (2, looks('after use')), (0.5, 'GWDevInvState'), (0.5, 'GWUseItem 14 0'), (2, looks('used without any left'))]
 
+def uniq(tag):
+    """All guests different while there are no more of them than looks (NextOutfit, s44)."""
+    def f(world, pc):
+        idx = [c.get_editor_property('OutfitIndex') for c in actors(world, CHAR) if c.get_editor_property('Kind') == 0]
+        log(tag, 'guests', len(idx), 'distinct', len(set(idx)), 'duplicates', sorted({i for i in idx if idx.count(i) > 1})[:10], 'looks', max(idx) + 1 if idx else 0)
+    return f
+
+
+PLANS['unique'] = [(12, 'GWDevQuickTest 1'), (1, 'GWDevAutoEvents 0'), (1, 'GWDevNPCCount 120'), (15, uniq('spawned')), (1, 'GWDevGiveItem 14'), (1, 'GWUseItem 14 0'), (2, uniq('after mascarade'))]
+
+
 def last_add(world, pc):
     """A second player in this process (splitscreen slot): two players without a second game."""
     unreal.GameplayStatics.create_player(world, 1, True)

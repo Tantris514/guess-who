@@ -116,6 +116,9 @@ tes idées n'importe où (section « À faire » ou « Idées »), elles seront 
   (`NumOutfits` 124). Les 101 invités sans voix partagent les 22 voix d'invités existantes, même genre, aucune voix
   générée (`Tools/chars/assign_shared_voices.py`, champ « voice » du manifeste, repris par s29 dans `GenIds`). Reste :
   vérifier en partie le temps de chargement et la mémoire, tous les personnages étant chargés par le Blueprint.
+- ✅ 2026-11-06 : invités tous différents tant qu'ils sont 124 ou moins, corps inclus (`NextOutfit` de `s44_npc_life.py`, qui
+  cherche une apparence que personne ne porte ; `s45_mascarade.py` libère les apparences avant de redistribuer). Vérifié :
+  121 invités, 121 apparences, avant et après Mascarade (`py_harness.ps1 -Plan unique`). Le menu dev peut encore créer des doublons.
 - ✅ Directeur des voix (moteur, `s39_voice_director.py` + `voice_bank.py`) : compilé (2026-11-03 05:59) ; test sans
   écran partie B (mort par balle, panne, bandits) propre : 0 avertissement, 0 répétition, 0 cri hors sujet, chaque
   réplique dans la voix de son personnage (`Tools\qa\voice_test.ps1` + `voice_log_check.py`). 06:59 : la banque ne

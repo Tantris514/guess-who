@@ -1,0 +1,16 @@
+{
+ "width": 1024,
+ "height": 1536,
+ "ortho_width_cm": 140.0,
+ "centre_z_cm": 100.0,
+ "cm_per_px": 0.13671875,
+ "note": "front camera on +Y looking -Y (mannequin faces +Y); image x grows toward the mannequin's left",
+ "files": [
+  "manny_front.png",
+  "manny_back.png",
+  "manny_side.png",
+  "quinn_front.png",
+  "quinn_back.png",
+  "quinn_side.png"
+ ]
+}

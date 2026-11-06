@@ -45,11 +45,18 @@ write(gm, 'Mascarade', f'''
     {local_note('"Pas de masque : le barman en vend."')}
     (return))
   (GW|Set|BP_GW_PlayerState|Masks :self PS :Masks (- (GW|Get|BP_GW_PlayerState|Masks :self PS) 1))
+  ; everybody lets go of their look first, so that NextOutfit can hand all of them out again without a duplicate
   (for c (Actor|GetAllActorsOfClass :ActorClass "{CHAR}")
     (bind g (Utilities|Casting|CastToBP_GW_Character c)
       (:then
         (if (and (and (== (GW|Get|BP_GW_Character|Kind :self g) 0) (not (GW|Get|BP_GW_Character|IsDead :self g))) (not (GW|Get|BP_GW_Character|IsSeeker :self g)))
-          (GW|Set|BP_GW_Character|OutfitIndex :self g :OutfitIndex (CallFunction|NextOutfit))))
+          (GW|Set|BP_GW_Character|OutfitIndex :self g :OutfitIndex -1)))
+      (:CastFailed)))
+  (for c2 (Actor|GetAllActorsOfClass :ActorClass "{CHAR}")
+    (bind g2 (Utilities|Casting|CastToBP_GW_Character c2)
+      (:then
+        (if (== (GW|Get|BP_GW_Character|OutfitIndex :self g2) -1)
+          (GW|Set|BP_GW_Character|OutfitIndex :self g2 :OutfitIndex (CallFunction|NextOutfit))))
       (:CastFailed)))
   (Game|SpawnActorfromClass :Class "{CUE}" :SpawnTransform (Math|Transform|MakeTransform) :CollisionHandlingOverride "AlwaysSpawn")
   (CallFunction|SayNearPlayers :Cat {GASP} :PerPlayer 3 :Delay 0.4 :Spread 1.2)

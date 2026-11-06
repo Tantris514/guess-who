@@ -1,5 +1,4 @@
-# Allow-list: only code, tools and documents go to the public repository.
-# The engine, builds, game content, generated media and logs stay on this machine.
+# Allow-list for the public repository. The engine, builds, raw generated media and logs stay on this machine.
 /*
 !/.gitignore
 !/README.md
@@ -52,3 +51,13 @@ __pycache__/
 /Tools/qa/pkg_*/
 /Tools/ui/shots/
 /Tools/anim/qa/
+
+# Game content, in Git LFS (.gitattributes). Epic's template content may not be republished in editable form.
+!/.gitattributes
+!/GuessWho/Content/
+/GuessWho/Content/Characters/Mannequins/
+/GuessWho/Content/ThirdPerson/
+/GuessWho/Content/Input/
+!/Personnages (images)/
+!/Props (images)/
+!/Voix (personnages)/

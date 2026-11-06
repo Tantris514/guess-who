@@ -1114,16 +1114,18 @@ if 'gm' in PARTS:
     GW_ = {}
     GW_['NextOutfit'] = f'''
 (fn NextOutfit ()
+  ; a look nobody present wears (corpses included): guests are all different up to NumOutfits (the user, 2026-11-06).
+  ; Callers clear the new wearer's OutfitIndex to -1 first. The detective's model is a guest like any other (index 32, s26, s29)
+  (Utilities|Array|Clear :TargetArray (Variables|GW|GetOutfitBag))
+  (for i (range (Variables|GW|GetNumOutfits))
+    (Utilities|Array|Add :TargetArray (Variables|GW|GetOutfitBag) :NewItem i))
+  (for w (Actor|GetAllActorsOfClass :ActorClass {CHAR})
+    (if (== {CH('Kind', 'w')} 0)
+      (Utilities|Array|RemoveItem :TargetArray (Variables|GW|GetOutfitBag) :Item {CH('OutfitIndex', 'w')})))
+  ; more guests than looks: only then a look comes twice
   (if (== {LEN('OutfitBag')} 0)
-    ; the detective's model is a guest like any other since 2026-11-06 (index 32, s26, s29)
-    (for i (range (Variables|GW|GetNumOutfits))
-      (Utilities|Array|Add :TargetArray (Variables|GW|GetOutfitBag) :NewItem i))
-    (Utilities|Array|Shuffle (Variables|GW|GetOutfitBag)))
-  (if (== {LEN('OutfitBag')} 0)
-    (return 0))
-  {SL('Pick', AG('OutfitBag', f"(- {LEN('OutfitBag')} 1)"))}
-  (Utilities|Array|RemoveIndex :TargetArray (Variables|GW|GetOutfitBag) :IndexToRemove (- {LEN('OutfitBag')} 1))
-  (return {L('Pick')}))
+    (return (Math|Random|RandomIntegerinRange 0 (Math|Integer|Max(Integer) (- (Variables|GW|GetNumOutfits) 1) 0))))
+  (return {AG('OutfitBag', f"(Math|Random|RandomIntegerinRange 0 (- {LEN('OutfitBag')} 1))")}))
 '''
     GW_['LifeRoomOf'] = f'''
 (fn LifeRoomOf (Loc)
@@ -1504,6 +1506,7 @@ if 'gm' in PARTS:
   (bind p (AI|SpawnAIFromClass :PawnClass {CHAR} :Location (.location {L('Sp')}) :Rotation (.rotation {L('Sp')}) :bNoCollisionFail true))
   (bind c (Utilities|Casting|CastToBP_GW_Character p)
     (:then
+      (GW|Set|BP_GW_Character|OutfitIndex :self c :OutfitIndex -1)
       {SL('Oi', '(CallFunction|NextOutfit)')}
       (GW|Set|BP_GW_Character|OutfitIndex :self c :OutfitIndex {L('Oi')})
       (GW|Set|BP_GW_Character|Health :self c :Health 100.0))
@@ -1520,6 +1523,7 @@ if 'gm' in PARTS:
       (Variables|Default|SetT (CallFunction|RandomSpawnTransform))))
   (bind ch (Game|SpawnActorfromClass :Class {CHAR} :SpawnTransform (Variables|Default|GetT) :CollisionHandlingOverride "AdjustIfPossibleButAlwaysSpawn" :Owner PC))
   (GW|Set|BP_GW_Character|IsSeeker :self ch :IsSeeker Seeker)
+  (GW|Set|BP_GW_Character|OutfitIndex :self ch :OutfitIndex -1)
   {SL('Oi', '(CallFunction|NextOutfit)')}
   (GW|Set|BP_GW_Character|OutfitIndex :self ch :OutfitIndex {L('Oi')})
   ; dev menu pick (Tools/ui/u15_dev_menu.py) kept across rounds
