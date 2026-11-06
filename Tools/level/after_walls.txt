@@ -1,0 +1,2 @@
+wall-decor objects: 244 (113 paintings, 54 sconces); obstacles: 1247
+overlapping (object, obstacle-kind) pairs: 0; offending objects: 0

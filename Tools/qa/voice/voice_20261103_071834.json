@@ -1,0 +1,323 @@
+{
+ "lines": 77,
+ "errors": {},
+ "repeated_texts": {},
+ "repeated_idx": 0,
+ "nonverbal_back_to_back": 0,
+ "gun_line_without_gunshot": [],
+ "shout_cause_mismatch": [],
+ "ambient_conversations": 18,
+ "ambient_gap_min": 21.3,
+ "ambient_gaps_below_14s": 0,
+ "ambient_overlaps": 0,
+ "event_lines": 0,
+ "event_gap_min": null,
+ "event_gaps_below_5s": 0,
+ "shouts": 9,
+ "max_shouts_per_area_12s": 2,
+ "simultaneous_voices_hist": {
+  "1": 72,
+  "2": 12,
+  "5": 10
+ },
+ "max_simultaneous": 5,
+ "same_voice_at_once": 2,
+ "worst_moments": [
+  [
+   216.1,
+   "BP_GW_Character_C_62",
+   [
+    [
+     0,
+     1,
+     "char_minuit"
+    ],
+    [
+     0,
+     1,
+     "char_odette"
+    ],
+    [
+     0,
+     1,
+     "char_f_gown"
+    ],
+    [
+     0,
+     1,
+     "char_m_tailcoat"
+    ],
+    [
+     0,
+     1,
+     "char_minuit"
+    ]
+   ]
+  ],
+  [
+   216.1,
+   "BP_GW_Ghost_C_1",
+   [
+    [
+     0,
+     1,
+     "char_minuit"
+    ],
+    [
+     0,
+     1,
+     "char_odette"
+    ],
+    [
+     0,
+     1,
+     "char_f_gown"
+    ],
+    [
+     0,
+     1,
+     "char_m_tailcoat"
+    ],
+    [
+     0,
+     1,
+     "char_minuit"
+    ]
+   ]
+  ],
+  [
+   216.1,
+   "BP_GW_Character_C_62",
+   [
+    [
+     0,
+     1,
+     "char_minuit"
+    ],
+    [
+     0,
+     1,
+     "char_odette"
+    ],
+    [
+     0,
+     1,
+     "char_f_gown"
+    ],
+    [
+     0,
+     1,
+     "char_m_tailcoat"
+    ],
+    [
+     0,
+     1,
+     "char_minuit"
+    ]
+   ]
+  ],
+  [
+   216.1,
+   "BP_GW_Ghost_C_1",
+   [
+    [
+     0,
+     1,
+     "char_minuit"
+    ],
+    [
+     0,
+     1,
+     "char_odette"
+    ],
+    [
+     0,
+     1,
+     "char_f_gown"
+    ],
+    [
+     0,
+     1,
+     "char_m_tailcoat"
+    ],
+    [
+     0,
+     1,
+     "char_minuit"
+    ]
+   ]
+  ],
+  [
+   216.1,
+   "BP_GW_Character_C_62",
+   [
+    [
+     0,
+     1,
+     "char_minuit"
+    ],
+    [
+     0,
+     1,
+     "char_odette"
+    ],
+    [
+     0,
+     1,
+     "char_f_gown"
+    ],
+    [
+     0,
+     1,
+     "char_m_tailcoat"
+    ],
+    [
+     0,
+     1,
+     "char_minuit"
+    ]
+   ]
+  ],
+  [
+   216.1,
+   "BP_GW_Ghost_C_1",
+   [
+    [
+     0,
+     1,
+     "char_minuit"
+    ],
+    [
+     0,
+     1,
+     "char_odette"
+    ],
+    [
+     0,
+     1,
+     "char_f_gown"
+    ],
+    [
+     0,
+     1,
+     "char_m_tailcoat"
+    ],
+    [
+     0,
+     1,
+     "char_minuit"
+    ]
+   ]
+  ],
+  [
+   216.1,
+   "BP_GW_Character_C_62",
+   [
+    [
+     0,
+     1,
+     "char_minuit"
+    ],
+    [
+     0,
+     1,
+     "char_odette"
+    ],
+    [
+     0,
+     1,
+     "char_f_gown"
+    ],
+    [
+     0,
+     1,
+     "char_m_tailcoat"
+    ],
+    [
+     0,
+     1,
+     "char_minuit"
+    ]
+   ]
+  ],
+  [
+   216.1,
+   "BP_GW_Ghost_C_1",
+   [
+    [
+     0,
+     1,
+     "char_minuit"
+    ],
+    [
+     0,
+     1,
+     "char_odette"
+    ],
+    [
+     0,
+     1,
+     "char_f_gown"
+    ],
+    [
+     0,
+     1,
+     "char_m_tailcoat"
+    ],
+    [
+     0,
+     1,
+     "char_minuit"
+    ]
+   ]
+  ]
+ ],
+ "speakers": 43,
+ "speakers_with_two_voices": {},
+ "line_not_in_speaker_voice": [],
+ "one_voice_dialogues": [],
+ "turn_gap_min": 0.12,
+ "turn_gap_max": 0.67,
+ "same_speaker_twice_in_a_row": 0,
+ "conversations_cut": 3,
+ "lines_far_from_players": 2,
+ "pd_median": 592.0,
+ "by_priority": {
+  "0": 16,
+  "1": 10,
+  "3": 2,
+  "4": 43,
+  "5": 6
+ },
+ "by_category": {
+  "1": 17,
+  "2": 9,
+  "3": 2,
+  "4": 7,
+  "16": 5,
+  "17": 36,
+  "68": 1
+ },
+ "conversations": 11,
+ "dialogue_turns": 36,
+ "talks": 6,
+ "talk_refusals": 0,
+ "walk_overs": 8,
+ "walk_gave_up": 1,
+ "drops": {
+  "hush": 5
+ },
+ "cuts": 5,
+ "panics": {
+  "death/cause2": 5,
+  "panic/cause2": 1,
+  "death/cause3": 11,
+  "panic/cause3": 2
+ },
+ "minutes": 7.5,
+ "lines_per_minute": 10.3,
+ "test_steps": 23,
+ "hard_failures": [
+  "same voice twice at once"
+ ]
+}

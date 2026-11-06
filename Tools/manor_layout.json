@@ -1,0 +1,261 @@
+{
+ "_units": "centimetres; X west->east, Y south->north, floor at Z=0",
+ "wall_thickness": 30,
+ "door_height": 270,
+ "rooms": [
+  {
+   "name": "dining",
+   "rect": [
+    0,
+    0,
+    2000,
+    1800
+   ],
+   "height": 500,
+   "floor": "parquet",
+   "wall": "wall_damask_red",
+   "wainscot": "wood_walnut",
+   "ceiling": "coffered"
+  },
+  {
+   "name": "corridor_w",
+   "rect": [
+    0,
+    1800,
+    2000,
+    2400
+   ],
+   "height": 450,
+   "floor": "checker",
+   "wall": "wall_navy_gold",
+   "wainscot": "wood_walnut",
+   "ceiling": "plain",
+   "runner": true
+  },
+  {
+   "name": "library",
+   "rect": [
+    0,
+    2400,
+    2000,
+    4400
+   ],
+   "height": 550,
+   "floor": "parquet",
+   "wall": "wood_walnut",
+   "wainscot": "wood_walnut",
+   "ceiling": "coffered"
+  },
+  {
+   "name": "hall",
+   "rect": [
+    2000,
+    0,
+    4000,
+    2400
+   ],
+   "height": 1000,
+   "floor": "checker",
+   "wall": "plaster_cream",
+   "wainscot": "wood_walnut",
+   "ceiling": "coffered"
+  },
+  {
+   "name": "ballroom",
+   "rect": [
+    2000,
+    2400,
+    4000,
+    4400
+   ],
+   "height": 700,
+   "floor": "parquet",
+   "wall": "wall_damask_green",
+   "wainscot": "wood_mahogany",
+   "ceiling": "coffered"
+  },
+  {
+   "name": "billiard",
+   "rect": [
+    4000,
+    0,
+    6000,
+    1800
+   ],
+   "height": 500,
+   "floor": "carpet",
+   "wall": "wall_navy_gold",
+   "wainscot": "wood_mahogany",
+   "ceiling": "coffered"
+  },
+  {
+   "name": "corridor_e",
+   "rect": [
+    4000,
+    1800,
+    6000,
+    2400
+   ],
+   "height": 450,
+   "floor": "checker",
+   "wall": "wall_floral_cream",
+   "wainscot": "wood_walnut",
+   "ceiling": "plain",
+   "runner": true
+  },
+  {
+   "name": "study",
+   "rect": [
+    4000,
+    2400,
+    6000,
+    3200
+   ],
+   "height": 450,
+   "floor": "parquet",
+   "wall": "wall_damask_red",
+   "wainscot": "wood_mahogany",
+   "ceiling": "plain"
+  },
+  {
+   "name": "conservatory",
+   "rect": [
+    4000,
+    3200,
+    6000,
+    4400
+   ],
+   "height": 600,
+   "floor": "checker",
+   "wall": "glass",
+   "wainscot": "none",
+   "ceiling": "glass"
+  }
+ ],
+ "doors": [
+  {
+   "axis": "y",
+   "at": 1800,
+   "center": 1000,
+   "width": 180
+  },
+  {
+   "axis": "y",
+   "at": 2400,
+   "center": 1000,
+   "width": 180
+  },
+  {
+   "axis": "x",
+   "at": 2000,
+   "center": 2140,
+   "width": 320
+  },
+  {
+   "axis": "x",
+   "at": 2000,
+   "center": 600,
+   "width": 220
+  },
+  {
+   "axis": "x",
+   "at": 2000,
+   "center": 3400,
+   "width": 220
+  },
+  {
+   "axis": "y",
+   "at": 2400,
+   "center": 3000,
+   "width": 400
+  },
+  {
+   "axis": "x",
+   "at": 4000,
+   "center": 2140,
+   "width": 320
+  },
+  {
+   "axis": "x",
+   "at": 4000,
+   "center": 600,
+   "width": 220
+  },
+  {
+   "axis": "x",
+   "at": 4000,
+   "center": 3800,
+   "width": 220
+  },
+  {
+   "axis": "y",
+   "at": 1800,
+   "center": 5000,
+   "width": 180
+  },
+  {
+   "axis": "y",
+   "at": 2400,
+   "center": 5000,
+   "width": 180
+  },
+  {
+   "axis": "y",
+   "at": 3200,
+   "center": 5000,
+   "width": 180
+  }
+ ],
+ "gallery": {
+  "rect": [
+   2000,
+   1950,
+   4000,
+   2400
+  ],
+  "z": 500,
+  "stairs": [
+   {
+    "rect": [
+     2030,
+     1000,
+     2290,
+     1950
+    ],
+    "dir": "north"
+   },
+   {
+    "rect": [
+     3710,
+     1000,
+     3970,
+     1950
+    ],
+    "dir": "north"
+   }
+  ]
+ },
+ "seeker_spawn": [
+  3000,
+  250,
+  100
+ ],
+ "_notes_level": "level agent edits: hall<->dining/billiard doors moved to y=600 and hall<->corridor doors to y=2140 (the original positions were blocked by the stair flights); stairs shortened to y 1000-1950 (28 risers of 17.9 cm, treads 33.9 cm); added the entrance vestibule/cloakroom (seeker waiting room) south of the hall; window/fireplace placement lives in Tools/build_manor.py",
+ "cloakroom": {
+  "rect": [
+   2600,
+   0,
+   3400,
+   500
+  ],
+  "height": 400,
+  "wall_thickness": 20,
+  "door": {
+   "axis": "y",
+   "at": 500,
+   "center": 3000,
+   "width": 200,
+   "height": 250
+  }
+ }
+}

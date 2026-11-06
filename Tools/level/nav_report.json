@@ -1,0 +1,184 @@
+{
+ "paths": {
+  "hall": {
+   "valid": true,
+   "length": 450,
+   "points": 2
+  },
+  "hall_north": {
+   "valid": true,
+   "length": 2037,
+   "points": 5
+  },
+  "gallery": {
+   "valid": true,
+   "length": 3167,
+   "points": 9
+  },
+  "gallery_w_stairtop": {
+   "valid": true,
+   "length": 3997,
+   "points": 9
+  },
+  "dining": {
+   "valid": true,
+   "length": 4767,
+   "points": 12
+  },
+  "corridor_w": {
+   "valid": true,
+   "length": 3511,
+   "points": 7
+  },
+  "wc": {
+   "valid": true,
+   "length": 3988,
+   "points": 9
+  },
+  "library": {
+   "valid": true,
+   "length": 3773,
+   "points": 8
+  },
+  "ballroom": {
+   "valid": true,
+   "length": 3127,
+   "points": 6
+  },
+  "stage": {
+   "valid": true,
+   "length": 3926,
+   "points": 8
+  },
+  "billiard": {
+   "valid": true,
+   "length": 2016,
+   "points": 6
+  },
+  "corridor_e": {
+   "valid": true,
+   "length": 3917,
+   "points": 7
+  },
+  "study": {
+   "valid": true,
+   "length": 3685,
+   "points": 9
+  },
+  "conservatory": {
+   "valid": true,
+   "length": 4630,
+   "points": 11
+  }
+ },
+ "projections": {
+  "hall": {
+   "projected": [
+    3000,
+    700,
+    10
+   ]
+  },
+  "hall_north": {
+   "projected": [
+    3000,
+    2200,
+    10
+   ]
+  },
+  "gallery": {
+   "projected": [
+    3000,
+    2200,
+    510
+   ]
+  },
+  "gallery_w_stairtop": {
+   "projected": [
+    2150,
+    2100,
+    510
+   ]
+  },
+  "dining": {
+   "projected": [
+    1500,
+    400,
+    10
+   ]
+  },
+  "corridor_w": {
+   "projected": [
+    700,
+    2100,
+    10
+   ]
+  },
+  "wc": {
+   "projected": [
+    230,
+    2130,
+    10
+   ]
+  },
+  "library": {
+   "projected": [
+    1000,
+    2900,
+    10
+   ]
+  },
+  "ballroom": {
+   "projected": [
+    3000,
+    3300,
+    10
+   ]
+  },
+  "stage": {
+   "projected": [
+    3000,
+    4100,
+    70
+   ]
+  },
+  "billiard": {
+   "projected": [
+    4500,
+    400,
+    10
+   ]
+  },
+  "corridor_e": {
+   "projected": [
+    5700,
+    2100,
+    10
+   ]
+  },
+  "study": {
+   "projected": [
+    5000,
+    2800,
+    10
+   ]
+  },
+  "conservatory": {
+   "projected": [
+    4700,
+    4000,
+    10
+   ]
+  },
+  "cloakroom": {
+   "projected": [
+    3000,
+    250,
+    10
+   ]
+  }
+ },
+ "bad_markers": [
+  "NPCSpawn_library_1(unreachable)"
+ ]
+}

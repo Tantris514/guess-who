@@ -1,0 +1,1351 @@
+{
+ "armchair_club": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\armchair_club_trellis_s1_u1536\\armchair_club.glb|1793599317",
+  "mesh": "/Game/GW/Meshes/Props/armchair_club/armchair_club/StaticMeshes/armchair_club",
+  "lo": [
+   -41.823333740234375,
+   -36.11396408081055,
+   -50.100833892822266
+  ],
+  "hi": [
+   41.83963394165039,
+   36.16936111450195,
+   49.8072624206543
+  ],
+  "size_cm": [
+   84,
+   72,
+   100
+  ],
+  "front": 90.0,
+  "rooms": [
+   "library",
+   "billiard"
+  ]
+ },
+ "bookcase": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\bookcase_trellis_s42\\bookcase.glb|1793591388",
+  "mesh": "/Game/GW/Meshes/Props/bookcase/bookcase/StaticMeshes/bookcase",
+  "lo": [
+   -22.904109954833984,
+   -13.60038948059082,
+   -50.11154556274414
+  ],
+  "hi": [
+   23.222272872924805,
+   12.490883827209473,
+   50.11420822143555
+  ],
+  "size_cm": [
+   106,
+   60,
+   230
+  ],
+  "front": 90.0,
+  "rooms": [
+   "library",
+   "study"
+  ]
+ },
+ "chandelier": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\chandelier_trellis_s42\\chandelier.glb|1793591204",
+  "mesh": "/Game/GW/Meshes/Props/chandelier/chandelier/StaticMeshes/chandelier",
+  "lo": [
+   -35.70201110839844,
+   -35.78798294067383,
+   -37.57114791870117
+  ],
+  "hi": [
+   35.739742279052734,
+   35.781944274902344,
+   50.11253356933594
+  ],
+  "size_cm": [
+   98,
+   98,
+   120
+  ],
+  "front": 90.0,
+  "rooms": [
+   "ballroom",
+   "hall",
+   "dining"
+  ]
+ },
+ "fireplace": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\fireplace_trellis_s42\\fireplace.glb|1793593683",
+  "mesh": "/Game/GW/Meshes/Props/fireplace/fireplace/StaticMeshes/fireplace",
+  "lo": [
+   -50.08018112182617,
+   -18.4917049407959,
+   -42.07442092895508
+  ],
+  "hi": [
+   50.0750846862793,
+   18.04473114013672,
+   42.06208419799805
+  ],
+  "size_cm": [
+   180,
+   66,
+   151
+  ],
+  "front": 90.0,
+  "rooms": [
+   "library",
+   "dining"
+  ]
+ },
+ "piano_grand": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\piano_grand_trellis_s42\\piano_grand.glb|1793591625",
+  "mesh": "/Game/GW/Meshes/Props/piano_grand/piano_grand/StaticMeshes/piano_grand",
+  "lo": [
+   -41.29111099243164,
+   -47.83709716796875,
+   -50.072044372558594
+  ],
+  "hi": [
+   40.049781799316406,
+   47.766910552978516,
+   50.080108642578125
+  ],
+  "size_cm": [
+   150,
+   176,
+   185
+  ],
+  "front": 90.0,
+  "rooms": [
+   "ballroom"
+  ]
+ },
+ "armor_suit": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\armor_suit_trellis_s42\\armor_suit.glb|1793602318",
+  "mesh": "/Game/GW/Meshes/Props/armor_suit/armor_suit/StaticMeshes/armor_suit",
+  "lo": [
+   -20.93865203857422,
+   -14.177009582519531,
+   -46.66657257080078
+  ],
+  "hi": [
+   20.964038848876953,
+   14.178887367248535,
+   49.719573974609375
+  ],
+  "size_cm": [
+   83,
+   56,
+   190
+  ],
+  "front": 90.0,
+  "rooms": [
+   "hall",
+   "corridor_w"
+  ]
+ },
+ "bar_cart": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\bar_cart_trellis_s42\\bar_cart.glb|1793601974",
+  "mesh": "/Game/GW/Meshes/Props/bar_cart/bar_cart/StaticMeshes/bar_cart",
+  "lo": [
+   -20.743545532226562,
+   -38.008941650390625,
+   -50.0544319152832
+  ],
+  "hi": [
+   20.730043411254883,
+   38.01832962036133,
+   50.08320617675781
+  ],
+  "size_cm": [
+   35,
+   65,
+   85
+  ],
+  "front": 90.0,
+  "rooms": [
+   "billiard",
+   "ballroom"
+  ]
+ },
+ "billiard_table": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\billiard_table_trellis_s42\\billiard_table.glb|1793616672",
+  "mesh": "/Game/GW/Meshes/Props/billiard_table/billiard_table/StaticMeshes/billiard_table",
+  "lo": [
+   -50.103878021240234,
+   -36.20113754272461,
+   -23.57371711730957
+  ],
+  "hi": [
+   50.0987663269043,
+   36.18806457519531,
+   23.54271697998047
+  ],
+  "size_cm": [
+   290,
+   160,
+   85
+  ],
+  "front": 90.0,
+  "rooms": [
+   "billiard"
+  ]
+ },
+ "bust_marble": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\bust_marble_trellis_s42\\bust_marble.glb|1793602101",
+  "mesh": "/Game/GW/Meshes/Props/bust_marble/bust_marble/StaticMeshes/bust_marble",
+  "lo": [
+   -26.33099937438965,
+   -16.962879180908203,
+   -46.772212982177734
+  ],
+  "hi": [
+   26.365243911743164,
+   12.813568115234375,
+   50.0495719909668
+  ],
+  "size_cm": [
+   93,
+   52,
+   170
+  ],
+  "front": 90.0,
+  "rooms": [
+   "hall",
+   "corridor_w",
+   "corridor_e"
+  ]
+ },
+ "candelabra": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\candelabra_trellis_s42\\candelabra.glb|1793608477",
+  "mesh": "/Game/GW/Meshes/Props/candelabra/candelabra/StaticMeshes/candelabra",
+  "lo": [
+   -25.007247924804688,
+   -24.956850051879883,
+   -50.1133918762207
+  ],
+  "hi": [
+   24.978904724121094,
+   24.94431495666504,
+   50.013954162597656
+  ],
+  "size_cm": [
+   30,
+   30,
+   60
+  ],
+  "front": 90.0,
+  "rooms": [
+   "dining"
+  ]
+ },
+ "chair_dining": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\chair_dining_trellis_s42\\chair_dining.glb|1793598589",
+  "mesh": "/Game/GW/Meshes/Props/chair_dining/chair_dining/StaticMeshes/chair_dining",
+  "lo": [
+   -25.643747329711914,
+   -26.246620178222656,
+   -50.10960006713867
+  ],
+  "hi": [
+   25.637468338012695,
+   26.257640838623047,
+   50.017677307128906
+  ],
+  "size_cm": [
+   54,
+   55,
+   105
+  ],
+  "front": 90.0,
+  "rooms": [
+   "dining"
+  ]
+ },
+ "chair_wicker": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\chair_wicker_trellis_s42\\chair_wicker.glb|1793599879",
+  "mesh": "/Game/GW/Meshes/Props/chair_wicker/chair_wicker/StaticMeshes/chair_wicker",
+  "lo": [
+   -38.34678268432617,
+   -35.18544006347656,
+   -49.904930114746094
+  ],
+  "hi": [
+   38.30711364746094,
+   35.11440658569336,
+   49.99222183227539
+  ],
+  "size_cm": [
+   69,
+   63,
+   90
+  ],
+  "front": 90.0,
+  "rooms": [
+   "conservatory"
+  ]
+ },
+ "chair_wingback": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\chair_wingback_trellis_s42\\chair_wingback.glb|1793600514",
+  "mesh": "/Game/GW/Meshes/Props/chair_wingback/chair_wingback/StaticMeshes/chair_wingback",
+  "lo": [
+   -40.29407501220703,
+   -44.40967559814453,
+   -50.00779724121094
+  ],
+  "hi": [
+   40.300254821777344,
+   44.47444534301758,
+   50.080142974853516
+  ],
+  "size_cm": [
+   88,
+   90,
+   115
+  ],
+  "front": 90.0,
+  "rooms": [
+   "library",
+   "study"
+  ]
+ },
+ "champagne_table": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\champagne_table_trellis_s42\\champagne_table.glb|1793603003",
+  "mesh": "/Game/GW/Meshes/Props/champagne_table/champagne_table/StaticMeshes/champagne_table",
+  "lo": [
+   -44.978397369384766,
+   -44.461849212646484,
+   -50.107872009277344
+  ],
+  "hi": [
+   45.41648864746094,
+   44.586822509765625,
+   50.046775817871094
+  ],
+  "size_cm": [
+   95,
+   93,
+   105
+  ],
+  "front": 90.0,
+  "rooms": [
+   "ballroom"
+  ]
+ },
+ "clock_grandfather": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\clock_grandfather_trellis_s42\\clock_grandfather.glb|1793602043",
+  "mesh": "/Game/GW/Meshes/Props/clock_grandfather/clock_grandfather/StaticMeshes/clock_grandfather",
+  "lo": [
+   -13.030439376831055,
+   -10.234989166259766,
+   -50.081050872802734
+  ],
+  "hi": [
+   13.030232429504395,
+   10.19404411315918,
+   49.1165771484375
+  ],
+  "size_cm": [
+   55,
+   43,
+   210
+  ],
+  "front": 90.0,
+  "rooms": [
+   "hall",
+   "corridor_w",
+   "corridor_e"
+  ]
+ },
+ "desk_partners": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\desk_partners_trellis_s42\\desk_partners.glb|1793601543",
+  "mesh": "/Game/GW/Meshes/Props/desk_partners/desk_partners/StaticMeshes/desk_partners",
+  "lo": [
+   -50.012332916259766,
+   -26.75912094116211,
+   -31.195175170898438
+  ],
+  "hi": [
+   50.033878326416016,
+   27.20292854309082,
+   31.22294807434082
+  ],
+  "size_cm": [
+   150,
+   80,
+   78
+  ],
+  "front": 90.0,
+  "rooms": [
+   "study"
+  ]
+ },
+ "globe_floor": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\globe_floor_trellis_s42\\globe_floor.glb|1793601863",
+  "mesh": "/Game/GW/Meshes/Props/globe_floor/globe_floor/StaticMeshes/globe_floor",
+  "lo": [
+   -28.57581901550293,
+   -28.322999954223633,
+   -50.10567855834961
+  ],
+  "hi": [
+   28.59334373474121,
+   28.317626953125,
+   50.089622497558594
+  ],
+  "size_cm": [
+   57,
+   57,
+   100
+  ],
+  "front": 90.0,
+  "rooms": [
+   "library",
+   "study"
+  ]
+ },
+ "gramophone": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\gramophone_trellis_s42\\gramophone.glb|1793603829",
+  "mesh": "/Game/GW/Meshes/Props/gramophone/gramophone/StaticMeshes/gramophone",
+  "lo": [
+   -32.069950103759766,
+   -35.46504211425781,
+   -50.04681396484375
+  ],
+  "hi": [
+   32.041622161865234,
+   35.45822525024414,
+   49.97985076904297
+  ],
+  "size_cm": [
+   45,
+   50,
+   70
+  ],
+  "front": 90.0,
+  "rooms": [
+   "ballroom",
+   "library"
+  ]
+ },
+ "harp": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\harp_trellis_s42\\harp.glb|1793603322",
+  "mesh": "/Game/GW/Meshes/Props/harp/harp/StaticMeshes/harp",
+  "lo": [
+   -42.024078369140625,
+   -12.395819664001465,
+   -48.541290283203125
+  ],
+  "hi": [
+   41.725738525390625,
+   12.380830764770508,
+   49.79563522338867
+  ],
+  "size_cm": [
+   100,
+   45,
+   180
+  ],
+  "front": 90.0,
+  "rooms": [
+   "ballroom"
+  ]
+ },
+ "lamp_floor": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\lamp_floor_trellis_s42\\lamp_floor.glb|1793600576",
+  "mesh": "/Game/GW/Meshes/Props/lamp_floor/lamp_floor/StaticMeshes/lamp_floor",
+  "lo": [
+   -16.145301818847656,
+   -16.12655258178711,
+   -50.11285400390625
+  ],
+  "hi": [
+   16.135927200317383,
+   16.14747428894043,
+   50.025665283203125
+  ],
+  "size_cm": [
+   53,
+   53,
+   165
+  ],
+  "front": 90.0,
+  "rooms": [
+   "library",
+   "study",
+   "billiard"
+  ]
+ },
+ "lamp_table": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\lamp_table_trellis_s42\\lamp_table.glb|1793616727",
+  "mesh": "/Game/GW/Meshes/Props/lamp_table/lamp_table/StaticMeshes/lamp_table",
+  "lo": [
+   -27.953582763671875,
+   -27.9327392578125,
+   -50.08236312866211
+  ],
+  "hi": [
+   27.967748641967773,
+   27.947811126708984,
+   50.06045150756836
+  ],
+  "size_cm": [
+   34,
+   33,
+   60
+  ],
+  "front": 90.0,
+  "rooms": [
+   "study",
+   "library"
+  ]
+ },
+ "ottoman": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\ottoman_trellis_s42\\ottoman.glb|1793608387",
+  "mesh": "/Game/GW/Meshes/Props/ottoman/ottoman/StaticMeshes/ottoman",
+  "lo": [
+   -49.97909164428711,
+   -50.04588317871094,
+   -32.29930877685547
+  ],
+  "hi": [
+   49.6736946105957,
+   49.86587142944336,
+   32.2467041015625
+  ],
+  "size_cm": [
+   60,
+   60,
+   39
+  ],
+  "front": 90.0,
+  "rooms": [
+   "library",
+   "ballroom"
+  ]
+ },
+ "palm_potted": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\palm_potted_trellis_s42\\palm_potted.glb|1793599504",
+  "mesh": "/Game/GW/Meshes/Props/palm_potted/palm_potted/StaticMeshes/palm_potted",
+  "lo": [
+   -37.05491256713867,
+   -36.528594970703125,
+   -50.09440231323242
+  ],
+  "hi": [
+   36.71541976928711,
+   36.657958984375,
+   48.66686248779297
+  ],
+  "size_cm": [
+   149,
+   148,
+   200
+  ],
+  "front": 90.0,
+  "rooms": [
+   "conservatory",
+   "hall",
+   "ballroom"
+  ]
+ },
+ "radio_cathedral": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\radio_cathedral_trellis_s42\\radio_cathedral.glb|1793604230",
+  "mesh": "/Game/GW/Meshes/Props/radio_cathedral/radio_cathedral/StaticMeshes/radio_cathedral",
+  "lo": [
+   -22.681564331054688,
+   -15.098722457885742,
+   -50.09322738647461
+  ],
+  "hi": [
+   22.689746856689453,
+   15.122248649597168,
+   50.02461624145508
+  ],
+  "size_cm": [
+   20,
+   14,
+   45
+  ],
+  "front": 90.0,
+  "rooms": [
+   "study",
+   "library"
+  ]
+ },
+ "sconce_wall": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\sconce_wall_trellis_s42\\sconce_wall.glb|1793600861",
+  "mesh": "/Game/GW/Meshes/Props/sconce_wall/sconce_wall/StaticMeshes/sconce_wall",
+  "lo": [
+   -50.01472091674805,
+   -14.949271202087402,
+   -40.771209716796875
+  ],
+  "hi": [
+   50.016170501708984,
+   14.99448013305664,
+   40.87136459350586
+  ],
+  "size_cm": [
+   43,
+   13,
+   35
+  ],
+  "front": 90.0,
+  "rooms": [
+   "hall",
+   "ballroom",
+   "dining",
+   "library",
+   "billiard",
+   "study",
+   "corridor_w",
+   "corridor_e"
+  ]
+ },
+ "sideboard": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\sideboard_trellis_s42\\sideboard.glb|1793601339",
+  "mesh": "/Game/GW/Meshes/Props/sideboard/sideboard/StaticMeshes/sideboard",
+  "lo": [
+   -50.06876754760742,
+   -17.21634864807129,
+   -20.794984817504883
+  ],
+  "hi": [
+   50.0857048034668,
+   15.738341331481934,
+   20.802000045776367
+  ],
+  "size_cm": [
+   180,
+   59,
+   75
+  ],
+  "front": -90.0,
+  "rooms": [
+   "dining"
+  ]
+ },
+ "sofa_chesterfield": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\sofa_chesterfield_trellis_s42\\sofa_chesterfield.glb|1793599281",
+  "mesh": "/Game/GW/Meshes/Props/sofa_chesterfield/sofa_chesterfield/StaticMeshes/sofa_chesterfield",
+  "lo": [
+   -50.06726837158203,
+   -26.121580123901367,
+   -21.065162658691406
+  ],
+  "hi": [
+   50.06382369995117,
+   26.16178321838379,
+   20.915857315063477
+  ],
+  "size_cm": [
+   210,
+   95,
+   80
+  ],
+  "front": 90.0,
+  "rooms": [
+   "billiard",
+   "library",
+   "hall"
+  ]
+ },
+ "stag_head": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\stag_head_trellis_s42\\stag_head.glb|1793603560",
+  "mesh": "/Game/GW/Meshes/Props/stag_head/stag_head/StaticMeshes/stag_head",
+  "lo": [
+   -41.691261291503906,
+   -33.25528335571289,
+   -49.99458694458008
+  ],
+  "hi": [
+   41.71159362792969,
+   33.33885192871094,
+   49.875335693359375
+  ],
+  "size_cm": [
+   92,
+   73,
+   110
+  ],
+  "front": 90.0,
+  "rooms": [
+   "billiard",
+   "hall"
+  ]
+ },
+ "table_console": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\table_console_trellis_s42\\table_console.glb|1793600452",
+  "mesh": "/Game/GW/Meshes/Props/table_console/table_console/StaticMeshes/table_console",
+  "lo": [
+   -50.08098602294922,
+   -25.413440704345703,
+   -38.81817626953125
+  ],
+  "hi": [
+   50.088130950927734,
+   25.413318634033203,
+   38.98063659667969
+  ],
+  "size_cm": [
+   120,
+   45,
+   82
+  ],
+  "front": 90.0,
+  "rooms": [
+   "hall",
+   "corridor_w",
+   "corridor_e"
+  ]
+ },
+ "table_dining": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\table_dining_trellis_s42\\table_dining.glb|1793598427",
+  "mesh": "/Game/GW/Meshes/Props/table_dining/table_dining/StaticMeshes/table_dining",
+  "lo": [
+   -50.0992546081543,
+   -25.096534729003906,
+   -18.4363956451416
+  ],
+  "hi": [
+   50.11427307128906,
+   25.107421875,
+   18.401538848876953
+  ],
+  "size_cm": [
+   280,
+   115,
+   78
+  ],
+  "front": 90.0,
+  "rooms": [
+   "dining"
+  ]
+ },
+ "table_side": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\table_side_trellis_s42\\table_side.glb|1793601091",
+  "mesh": "/Game/GW/Meshes/Props/table_side/table_side/StaticMeshes/table_side",
+  "lo": [
+   -46.08395004272461,
+   -46.07231140136719,
+   -50.11326599121094
+  ],
+  "hi": [
+   46.07227325439453,
+   46.07606887817383,
+   50.10080337524414
+  ],
+  "size_cm": [
+   60,
+   60,
+   65
+  ],
+  "front": 90.0,
+  "rooms": [
+   "library",
+   "ballroom",
+   "billiard",
+   "conservatory"
+  ]
+ },
+ "telephone": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\telephone_trellis_s42\\telephone.glb|1793604541",
+  "mesh": "/Game/GW/Meshes/Props/telephone/telephone/StaticMeshes/telephone",
+  "lo": [
+   -40.706600189208984,
+   -49.27294921875,
+   -27.29610824584961
+  ],
+  "hi": [
+   40.7569465637207,
+   50.06382369995117,
+   27.293216705322266
+  ],
+  "size_cm": [
+   22,
+   18,
+   12
+  ],
+  "front": 0.0,
+  "rooms": [
+   "study"
+  ]
+ },
+ "typewriter": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\typewriter_trellis_s42\\typewriter.glb|1793605036",
+  "mesh": "/Game/GW/Meshes/Props/typewriter/typewriter/StaticMeshes/typewriter",
+  "lo": [
+   -50.01165771484375,
+   -49.872623443603516,
+   -29.445140838623047
+  ],
+  "hi": [
+   50.069183349609375,
+   49.55717468261719,
+   29.786008834838867
+  ],
+  "size_cm": [
+   32,
+   32,
+   19
+  ],
+  "front": 90.0,
+  "rooms": [
+   "study"
+  ]
+ },
+ "umbrella_stand": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\umbrella_stand_trellis_s42\\umbrella_stand.glb|1793605196",
+  "mesh": "/Game/GW/Meshes/Props/umbrella_stand/umbrella_stand/StaticMeshes/umbrella_stand",
+  "lo": [
+   -12.622332572937012,
+   -13.62294864654541,
+   -50.08998107910156
+  ],
+  "hi": [
+   12.62396240234375,
+   14.168911933898926,
+   50.061439514160156
+  ],
+  "size_cm": [
+   23,
+   25,
+   90
+  ],
+  "front": 90.0,
+  "rooms": [
+   "hall"
+  ]
+ },
+ "vase_flowers": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\vase_flowers_trellis_s42\\vase_flowers.glb|1793599338",
+  "mesh": "/Game/GW/Meshes/Props/vase_flowers/vase_flowers/StaticMeshes/vase_flowers",
+  "lo": [
+   -42.222599029541016,
+   -43.46156311035156,
+   -50.08052062988281
+  ],
+  "hi": [
+   42.292240142822266,
+   43.6148796081543,
+   49.98816680908203
+  ],
+  "size_cm": [
+   68,
+   70,
+   80
+  ],
+  "front": 90.0,
+  "rooms": [
+   "hall",
+   "dining",
+   "ballroom"
+  ]
+ },
+ "bench": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\bench_trellis_s42\\bench.glb|1793692747",
+  "mesh": "/Game/GW/Meshes/Props/bench/bench/StaticMeshes/bench",
+  "lo": [
+   -50.064300537109375,
+   -20.440296173095703,
+   -21.80411148071289
+  ],
+  "hi": [
+   50.067466735839844,
+   20.44040298461914,
+   21.748897552490234
+  ],
+  "size_cm": [
+   140,
+   48,
+   50
+  ],
+  "front": 90.0,
+  "rooms": [
+   "corridor_w",
+   "corridor_e",
+   "hall"
+  ]
+ },
+ "trunk_steamer": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\trunk_steamer_trellis_s42\\trunk_steamer.glb|1793690330",
+  "mesh": "/Game/GW/Meshes/Props/trunk_steamer/trunk_steamer/StaticMeshes/trunk_steamer",
+  "lo": [
+   -50.07361602783203,
+   -28.28250503540039,
+   -33.38468551635742
+  ],
+  "hi": [
+   50.075809478759766,
+   28.15718650817871,
+   33.65748977661133
+  ],
+  "size_cm": [
+   90,
+   51,
+   60
+  ],
+  "front": 90.0,
+  "rooms": [
+   "cloakroom",
+   "hall"
+  ]
+ },
+ "coat_rack": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\coat_rack_trellis_s42\\coat_rack.glb|1793699746",
+  "mesh": "/Game/GW/Meshes/Props/coat_rack/coat_rack/StaticMeshes/coat_rack",
+  "lo": [
+   -18.003833770751953,
+   -15.398752212524414,
+   -50.0706672668457
+  ],
+  "hi": [
+   18.014768600463867,
+   15.340479850769043,
+   50.03080368041992
+  ],
+  "size_cm": [
+   68,
+   58,
+   190
+  ],
+  "front": 90.0,
+  "rooms": [
+   "cloakroom",
+   "hall"
+  ]
+ },
+ "curio_cabinet": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\curio_cabinet_trellis_s42\\curio_cabinet.glb|1793703314",
+  "mesh": "/Game/GW/Meshes/Props/curio_cabinet/curio_cabinet/StaticMeshes/curio_cabinet",
+  "lo": [
+   -27.951175689697266,
+   -16.125255584716797,
+   -50.109947204589844
+  ],
+  "hi": [
+   27.956003189086914,
+   16.533885955810547,
+   50.10763931274414
+  ],
+  "size_cm": [
+   100,
+   42,
+   180
+  ],
+  "front": 90.0,
+  "rooms": [
+   "dining",
+   "hall"
+  ]
+ },
+ "safe": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\safe_trellis_s42\\safe.glb|1793702613",
+  "mesh": "/Game/GW/Meshes/Props/safe/safe/StaticMeshes/safe",
+  "lo": [
+   -39.68806838989258,
+   -44.03501892089844,
+   -50.09808349609375
+  ],
+  "hi": [
+   39.675018310546875,
+   46.93781280517578,
+   50.09799575805664
+  ],
+  "size_cm": [
+   70,
+   65,
+   95
+  ],
+  "front": 90.0,
+  "rooms": [
+   "study"
+  ]
+ },
+ "screen_folding": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\screen_folding_trellis_s42\\screen_folding.glb|1793706155",
+  "mesh": "/Game/GW/Meshes/Props/screen_folding/screen_folding/StaticMeshes/screen_folding",
+  "lo": [
+   -34.619712829589844,
+   -3.420527219772339,
+   -50.107723236083984
+  ],
+  "hi": [
+   34.62046432495117,
+   3.2656402587890625,
+   50.05760955810547
+  ],
+  "size_cm": [
+   121,
+   12,
+   175
+  ],
+  "front": 90.0,
+  "rooms": [
+   "ballroom",
+   "conservatory",
+   "study"
+  ]
+ },
+ "bar_counter": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\bar_counter_trellis_s42\\bar_counter.glb|1793713441",
+  "mesh": "/Game/GW/Meshes/Props/bar_counter/bar_counter/StaticMeshes/bar_counter",
+  "lo": [
+   -50.07847595214844,
+   -27.929677963256836,
+   -34.46989822387695
+  ],
+  "hi": [
+   50.07638931274414,
+   27.873334884643555,
+   34.340606689453125
+  ],
+  "size_cm": [
+   250,
+   130,
+   140
+  ],
+  "front": 90.0,
+  "rooms": [
+   "ballroom",
+   "billiard"
+  ]
+ },
+ "birdcage": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\birdcage_trellis_s42\\birdcage.glb|1793882400",
+  "mesh": "/Game/GW/Meshes/Props/birdcage/birdcage/StaticMeshes/birdcage",
+  "lo": [
+   -17.637815475463867,
+   -17.615123748779297,
+   -50.09927749633789
+  ],
+  "hi": [
+   17.639089584350586,
+   17.621305465698242,
+   50.01252746582031
+  ],
+  "size_cm": [
+   60,
+   60,
+   170
+  ],
+  "front": 90.0,
+  "rooms": [
+   "conservatory"
+  ]
+ },
+ "card_table": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\card_table_trellis_s42\\card_table.glb|1793876482",
+  "mesh": "/Game/GW/Meshes/Props/card_table/card_table/StaticMeshes/card_table",
+  "lo": [
+   -50.10204315185547,
+   -50.10197067260742,
+   -41.435546875
+  ],
+  "hi": [
+   50.1063232421875,
+   50.10148239135742,
+   42.28892517089844
+  ],
+  "size_cm": [
+   85,
+   85,
+   71
+  ],
+  "front": 90.0,
+  "rooms": [
+   "billiard",
+   "library"
+  ]
+ },
+ "chaise_longue": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\chaise_longue_trellis_s42\\chaise_longue.glb|1793877201",
+  "mesh": "/Game/GW/Meshes/Props/chaise_longue/chaise_longue/StaticMeshes/chaise_longue",
+  "lo": [
+   -50.07512664794922,
+   -20.161039352416992,
+   -22.955354690551758
+  ],
+  "hi": [
+   50.086055755615234,
+   20.0927791595459,
+   22.956266403198242
+  ],
+  "size_cm": [
+   180,
+   72,
+   83
+  ],
+  "front": 90.0,
+  "rooms": [
+   "library",
+   "ballroom",
+   "conservatory"
+  ]
+ },
+ "champagne_bucket": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\champagne_bucket_trellis_s42\\champagne_bucket.glb|1793881212",
+  "mesh": "/Game/GW/Meshes/Props/champagne_bucket/champagne_bucket/StaticMeshes/champagne_bucket",
+  "lo": [
+   -14.198240280151367,
+   -14.990764617919922,
+   -50.097835540771484
+  ],
+  "hi": [
+   14.68956184387207,
+   15.01576042175293,
+   50.073944091796875
+  ],
+  "size_cm": [
+   25,
+   25,
+   85
+  ],
+  "front": 90.0,
+  "rooms": [
+   "ballroom",
+   "dining"
+  ]
+ },
+ "double_bass": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\double_bass_trellis_s42\\double_bass.glb|1793881712",
+  "mesh": "/Game/GW/Meshes/Props/double_bass/double_bass/StaticMeshes/double_bass",
+  "lo": [
+   -17.11812973022461,
+   -10.136859893798828,
+   -50.09324645996094
+  ],
+  "hi": [
+   17.117355346679688,
+   10.137884140014648,
+   50.03658676147461
+  ],
+  "size_cm": [
+   63,
+   37,
+   185
+  ],
+  "front": 90.0,
+  "rooms": [
+   "ballroom"
+  ]
+ },
+ "dress_form": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\dress_form_trellis_s42\\dress_form.glb|1793879436",
+  "mesh": "/Game/GW/Meshes/Props/dress_form/dress_form/StaticMeshes/dress_form",
+  "lo": [
+   -12.167462348937988,
+   -11.005232810974121,
+   -50.105308532714844
+  ],
+  "hi": [
+   12.108489990234375,
+   10.884174346923828,
+   50.068389892578125
+  ],
+  "size_cm": [
+   40,
+   36,
+   165
+  ],
+  "front": 90.0,
+  "rooms": [
+   "cloakroom",
+   "ballroom"
+  ]
+ },
+ "drum_kit": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\drum_kit_trellis_s42\\drum_kit.glb|1793880366",
+  "mesh": "/Game/GW/Meshes/Props/drum_kit/drum_kit/StaticMeshes/drum_kit",
+  "lo": [
+   -47.87933349609375,
+   -44.26691436767578,
+   -39.889347076416016
+  ],
+  "hi": [
+   49.2112922668457,
+   42.46418380737305,
+   38.29631805419922
+  ],
+  "size_cm": [
+   150,
+   134,
+   121
+  ],
+  "front": 90.0,
+  "rooms": [
+   "ballroom"
+  ]
+ },
+ "fern_stand": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\fern_stand_trellis_s42\\fern_stand.glb|1793715457",
+  "mesh": "/Game/GW/Meshes/Props/fern_stand/fern_stand/StaticMeshes/fern_stand",
+  "lo": [
+   -42.837677001953125,
+   -42.05484390258789,
+   -50.07246780395508
+  ],
+  "hi": [
+   39.78045654296875,
+   41.01728820800781,
+   49.92609786987305
+  ],
+  "size_cm": [
+   107,
+   108,
+   130
+  ],
+  "front": 90.0,
+  "rooms": [
+   "conservatory",
+   "corridor_w",
+   "corridor_e",
+   "hall"
+  ]
+ },
+ "film_projector": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\film_projector_trellis_s42\\film_projector.glb|1793881001",
+  "mesh": "/Game/GW/Meshes/Props/film_projector/film_projector/StaticMeshes/film_projector",
+  "lo": [
+   -34.63854217529297,
+   -22.10101890563965,
+   -50.102542877197266
+  ],
+  "hi": [
+   34.74679183959961,
+   22.013633728027344,
+   50.09061050415039
+  ],
+  "size_cm": [
+   97,
+   62,
+   140
+  ],
+  "front": 90.0,
+  "rooms": [
+   "library",
+   "study"
+  ]
+ },
+ "fire_screen": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\fire_screen_trellis_s42\\fire_screen.glb|1793879171",
+  "mesh": "/Game/GW/Meshes/Props/fire_screen/fire_screen/StaticMeshes/fire_screen",
+  "lo": [
+   -50.04207992553711,
+   -10.683844566345215,
+   -30.208715438842773
+  ],
+  "hi": [
+   50.04698181152344,
+   10.245448112487793,
+   30.214309692382812
+  ],
+  "size_cm": [
+   90,
+   19,
+   54
+  ],
+  "front": 90.0,
+  "rooms": [
+   "library",
+   "dining"
+  ]
+ },
+ "microphone_stand": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\microphone_stand_trellis_s42\\microphone_stand.glb|1793882196",
+  "mesh": "/Game/GW/Meshes/Props/microphone_stand/microphone_stand/StaticMeshes/microphone_stand",
+  "lo": [
+   -16.002601623535156,
+   -16.131275177001953,
+   -49.980735778808594
+  ],
+  "hi": [
+   15.985984802246094,
+   16.113588333129883,
+   50.0682487487793
+  ],
+  "size_cm": [
+   56,
+   56,
+   175
+  ],
+  "front": 90.0,
+  "rooms": [
+   "ballroom"
+  ]
+ },
+ "statue_dancer": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\statue_dancer_trellis_s42\\statue_dancer.glb|1793717708",
+  "mesh": "/Game/GW/Meshes/Props/statue_dancer/statue_dancer/StaticMeshes/statue_dancer",
+  "lo": [
+   -14.80385971069336,
+   -14.815706253051758,
+   -50.10689926147461
+  ],
+  "hi": [
+   14.802518844604492,
+   14.812684059143066,
+   50.064945220947266
+  ],
+  "size_cm": [
+   47,
+   47,
+   160
+  ],
+  "front": 90.0,
+  "rooms": [
+   "ballroom",
+   "hall"
+  ]
+ },
+ "vase_floor": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\vase_floor_trellis_s42\\vase_floor.glb|1793877519",
+  "mesh": "/Game/GW/Meshes/Props/vase_floor/vase_floor/StaticMeshes/vase_floor",
+  "lo": [
+   -22.928550720214844,
+   -23.927783966064453,
+   -49.88959884643555
+  ],
+  "hi": [
+   21.683385848999023,
+   20.951013565063477,
+   50.055503845214844
+  ],
+  "size_cm": [
+   45,
+   45,
+   100
+  ],
+  "front": 90.0,
+  "rooms": [
+   "hall",
+   "corridor_w",
+   "corridor_e",
+   "dining"
+  ]
+ },
+ "writing_bureau": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\writing_bureau_trellis_s42\\writing_bureau.glb|1793878627",
+  "mesh": "/Game/GW/Meshes/Props/writing_bureau/writing_bureau/StaticMeshes/writing_bureau",
+  "lo": [
+   -43.05096435546875,
+   -43.848167419433594,
+   -50.10242462158203
+  ],
+  "hi": [
+   43.03725814819336,
+   44.519561767578125,
+   50.065696716308594
+  ],
+  "size_cm": [
+   95,
+   97,
+   110
+  ],
+  "front": 90.0,
+  "rooms": [
+   "study",
+   "library"
+  ]
+ }
+}

@@ -1,0 +1,630 @@
+{
+ "title": "Guess Who / Le Bal Masque - island exterior source assets (offline generated)",
+ "generated": "2026-11-02T22:18:52",
+ "regenerate": "V:\\ComfyUI\\ComfyUI\\ComfyUI\\.venv\\Scripts\\python.exe -I gen\\build_all.py  (run from island_src; stages alone: gen\\gen_meshes.py, gen\\gen_textures.py, gen\\gen_audio.py [names])",
+ "generators": [
+  "gen/common.py",
+  "gen/gen_meshes.py",
+  "gen/gen_textures.py",
+  "gen/gen_audio.py",
+  "gen/build_all.py"
+ ],
+ "conventions": {
+  "units_axes": "UE centimetres, Z up. +X = north (downwind), +Y = east. Wind blows from -X toward +X.",
+  "obj": "Same convention as Tools/level/gen_arch_meshes.py: 'v x -y z', 'vn nx -ny nz' (UE values with y negated); faces wound so the geometric normal in OBJ space points outward (checked per face against the smooth normals and by signed volume for closed meshes). Indexed v/vt/vn, smooth per-vertex normals, one object per file, no materials/usemtl.",
+  "uv": "Island: world xy / 400. Sea grid: world xy / 1000 (local; equals world if placed at x=y=0). Boulders, crowns, bushes: per-face box projection, cm / 100 (1 UV per metre). Trees: u wraps the trunk (2 tiles trunk, 1 on branches), v = length along the limb / 100.",
+  "normal_maps": "Tangent space, +Z blue, OpenGL convention (green = +Y = up in the image). UE uses DirectX: tick 'Flip Green Channel' when importing T_GW_SeaNormal, T_GW_RainGlass, T_GW_Rock_Normal.",
+  "textures": "8-bit PNG. BaseColor maps are sRGB; every other map is linear data (turn sRGB off). All tile seamlessly (periodic noise, wrapped stamping, wrap-mode filters; seam statistics checked).",
+  "audio": "WAV PCM 16-bit, 48000 Hz, mono, peak-normalised to -3.0 dBFS, no clipped samples. Loops are synthesised circularly (FFT-filtered periodic noise, periodic envelopes, closed phase tracks, events wrapped modulo the loop), so the tail flows into the head like any two adjacent samples."
+ },
+ "world": {
+  "manor_footprint": "x 0..6000, y 0..4400, floor z 0; conservatory x 4000..6000, y 3200..4400",
+  "sea_surface_z": -2000,
+  "island_place_at": [
+   0,
+   0,
+   0
+  ],
+  "island_bbox_ue": [
+   [
+    -4500.0,
+    -4500.0,
+    -2600.0
+   ],
+   [
+    10500.0,
+    8900.0,
+    -32.5
+   ]
+  ],
+  "plateau_z": "-45 +-15 (range on the plateau [-60.0, -32.5])",
+  "sea_grid_place_at_suggested": [
+   3000,
+   2200,
+   -2000
+  ]
+ },
+ "files": {
+  "SM_GW_Island": {
+   "file": "meshes/SM_GW_Island.obj",
+   "purpose": "Heightfield island in world coordinates (place at origin, no rotation/scale): plateau under the manor (z -45 +-15, <= -40 inside the footprint + 100 cm), irregular plateau edge 1200..2600 cm from the footprint (wider north/east = lawn beyond the conservatory), steep rugged cliffs with ledges down to the sea at z -2000, rocky shore band -2000..-2150, sea bed falling to -2600 at the grid border.",
+   "tris": 40200,
+   "verts": 20385,
+   "normal_face_disagree": 22,
+   "faces_facing_up": "40200/40200",
+   "z_min": -2600.0,
+   "z_max": -32.5,
+   "footprint_plus_100_max_z": -42.0,
+   "footprint_plus_100_vertices": 2961,
+   "footprint_plus_100_vertices_above_minus40": 0,
+   "plateau_z_range": [
+    -60.0,
+    -32.5
+   ],
+   "plateau_edge_distance_from_footprint_cm": [
+    1400,
+    2600
+   ],
+   "min_room_shore_end_to_grid_border_cm": 700,
+   "border_ring_z": [
+    -2600.0,
+    -2600.0
+   ],
+   "edge_distance_by_side_cm": {
+    "north(+X)": 2100,
+    "east(+Y)": 2000,
+    "south(-Y)": 1400,
+    "west(-X)": 1500
+   },
+   "size_bytes": 3654969,
+   "size_cm": [
+    15000.0,
+    13400.0,
+    2567.5
+   ],
+   "bbox_min_ue": [
+    -4500.0,
+    -4500.0,
+    -2600.0
+   ],
+   "bbox_max_ue": [
+    10500.0,
+    8900.0,
+    -32.5
+   ],
+   "pivot": "world origin (mesh authored in world coordinates)"
+  },
+  "SM_GW_Boulder_A": {
+   "file": "meshes/SM_GW_Boulder_A.obj",
+   "purpose": "Shore / cliff-foot boulder, rounded. Noise-displaced icosphere with fractured facets, flat base.",
+   "tris": 2000,
+   "verts": 1002,
+   "normal_face_disagree": 0,
+   "obj_signed_volume_m3": 2.1551,
+   "size_bytes": 155582,
+   "size_cm": [
+    210.0,
+    165.8,
+    111.4
+   ],
+   "bbox_min_ue": [
+    -105.0,
+    -82.9,
+    0.0
+   ],
+   "bbox_max_ue": [
+    105.0,
+    82.9,
+    111.4
+   ],
+   "pivot": "base centre, z 0 at the bottom"
+  },
+  "SM_GW_Boulder_B": {
+   "file": "meshes/SM_GW_Boulder_B.obj",
+   "purpose": "Shore boulder, long and slabby.",
+   "tris": 2420,
+   "verts": 1212,
+   "normal_face_disagree": 1,
+   "obj_signed_volume_m3": 1.675,
+   "size_bytes": 192215,
+   "size_cm": [
+    230.0,
+    148.2,
+    86.8
+   ],
+   "bbox_min_ue": [
+    -115.0,
+    -74.1,
+    0.0
+   ],
+   "bbox_max_ue": [
+    115.0,
+    74.1,
+    86.8
+   ],
+   "pivot": "base centre, z 0 at the bottom"
+  },
+  "SM_GW_Boulder_C": {
+   "file": "meshes/SM_GW_Boulder_C.obj",
+   "purpose": "Shore boulder, tall crag.",
+   "tris": 2880,
+   "verts": 1442,
+   "normal_face_disagree": 0,
+   "obj_signed_volume_m3": 2.9081,
+   "size_bytes": 233949,
+   "size_cm": [
+    190.0,
+    177.4,
+    164.8
+   ],
+   "bbox_min_ue": [
+    -95.0,
+    -88.7,
+    0.0
+   ],
+   "bbox_max_ue": [
+    95.0,
+    88.7,
+    164.8
+   ],
+   "pivot": "base centre, z 0 at the bottom"
+  },
+  "SM_GW_SeaGrid": {
+   "file": "meshes/SM_GW_SeaGrid.obj",
+   "purpose": "Flat sea surface grid for vertex wave displacement in the material; place at z -2000.",
+   "tris": 51200,
+   "verts": 25921,
+   "normal_face_disagree": 0,
+   "size_bytes": 4676536,
+   "size_cm": [
+    50000.0,
+    50000.0,
+    0.0
+   ],
+   "bbox_min_ue": [
+    -25000.0,
+    -25000.0,
+    0.0
+   ],
+   "bbox_max_ue": [
+    25000.0,
+    25000.0,
+    0.0
+   ],
+   "pivot": "grid centre, z 0 (place at z -2000)"
+  },
+  "SM_GW_TreeBent_A": {
+   "file": "meshes/SM_GW_TreeBent_A.obj",
+   "purpose": "Wind-bent coastal tree, cypress-like (tall, leaning from the base, crown pushed downwind). Trunk and branches only; put SM_GW_Crown_* at crown_anchors_ue.",
+   "tris": 4288,
+   "verts": 2176,
+   "normal_face_disagree": 0,
+   "obj_signed_volume_m3": 1.78,
+   "crown_anchors_ue": [
+    [
+     605.9,
+     45.0,
+     904.4
+    ],
+    [
+     295.0,
+     173.5,
+     467.7
+    ],
+    [
+     356.0,
+     -281.4,
+     596.0
+    ],
+    [
+     516.0,
+     164.4,
+     624.2
+    ],
+    [
+     598.5,
+     -162.0,
+     717.8
+    ],
+    [
+     689.7,
+     54.6,
+     760.9
+    ]
+   ],
+   "note": "trunk base at origin on the ground (z=0); the trunk continues 40 cm below ground (z=-40) to sit on uneven terrain",
+   "size_bytes": 345377,
+   "size_cm": [
+    760.6,
+    486.1,
+    958.3
+   ],
+   "bbox_min_ue": [
+    -43.5,
+    -281.9,
+    -53.0
+   ],
+   "bbox_max_ue": [
+    717.1,
+    204.2,
+    905.3
+   ],
+   "pivot": "trunk base at ground level (z 0)"
+  },
+  "SM_GW_TreeBent_B": {
+   "file": "meshes/SM_GW_TreeBent_B.obj",
+   "purpose": "Wind-bent coastal tree, pine-like (crooked dogleg trunk, flat top). Trunk and branches only.",
+   "tris": 3716,
+   "verts": 1884,
+   "normal_face_disagree": 0,
+   "obj_signed_volume_m3": 1.3812,
+   "crown_anchors_ue": [
+    [
+     475.7,
+     62.8,
+     764.3
+    ],
+    [
+     174.8,
+     269.7,
+     577.9
+    ],
+    [
+     329.6,
+     -252.5,
+     695.7
+    ],
+    [
+     451.6,
+     273.3,
+     646.9
+    ],
+    [
+     563.7,
+     -101.2,
+     689.2
+    ]
+   ],
+   "note": "trunk base at origin on the ground (z=0); the trunk continues 40 cm below ground (z=-40) to sit on uneven terrain",
+   "size_bytes": 296749,
+   "size_cm": [
+    611.1,
+    539.9,
+    818.0
+   ],
+   "bbox_min_ue": [
+    -39.4,
+    -266.1,
+    -51.7
+   ],
+   "bbox_max_ue": [
+    571.7,
+    273.8,
+    766.3
+   ],
+   "pivot": "trunk base at ground level (z 0)"
+  },
+  "SM_GW_Crown_A": {
+   "file": "meshes/SM_GW_Crown_A.obj",
+   "purpose": "Lumpy foliage blob for branch tips (flat-ish underside, streamed toward +X).",
+   "tris": 1620,
+   "verts": 812,
+   "normal_face_disagree": 0,
+   "obj_signed_volume_m3": 4.3028,
+   "size_bytes": 128959,
+   "size_cm": [
+    300.0,
+    220.0,
+    180.0
+   ],
+   "bbox_min_ue": [
+    -150.0,
+    -110.0,
+    -90.0
+   ],
+   "bbox_max_ue": [
+    150.0,
+    110.0,
+    90.0
+   ],
+   "pivot": "bounding-box centre"
+  },
+  "SM_GW_Crown_B": {
+   "file": "meshes/SM_GW_Crown_B.obj",
+   "purpose": "Lumpy foliage blob, variant.",
+   "tris": 1280,
+   "verts": 642,
+   "normal_face_disagree": 0,
+   "obj_signed_volume_m3": 4.1413,
+   "size_bytes": 99420,
+   "size_cm": [
+    300.0,
+    220.0,
+    180.0
+   ],
+   "bbox_min_ue": [
+    -150.0,
+    -110.0,
+    -90.0
+   ],
+   "bbox_max_ue": [
+    150.0,
+    110.0,
+    90.0
+   ],
+   "pivot": "bounding-box centre"
+  },
+  "SM_GW_Bush_A": {
+   "file": "meshes/SM_GW_Bush_A.obj",
+   "purpose": "Low lumpy coastal shrub, top swept toward +X.",
+   "tris": 1620,
+   "verts": 812,
+   "normal_face_disagree": 1,
+   "obj_signed_volume_m3": 1.033,
+   "size_bytes": 123000,
+   "size_cm": [
+    180.0,
+    140.0,
+    90.0
+   ],
+   "bbox_min_ue": [
+    -90.0,
+    -70.0,
+    0.0
+   ],
+   "bbox_max_ue": [
+    90.0,
+    70.0,
+    90.0
+   ],
+   "pivot": "base centre, z 0 at the bottom"
+  },
+  "SM_GW_Bush_B": {
+   "file": "meshes/SM_GW_Bush_B.obj",
+   "purpose": "Low lumpy coastal shrub, variant.",
+   "tris": 1280,
+   "verts": 642,
+   "normal_face_disagree": 0,
+   "obj_signed_volume_m3": 1.14,
+   "size_bytes": 97061,
+   "size_cm": [
+    180.0,
+    140.0,
+    90.0
+   ],
+   "bbox_min_ue": [
+    -90.0,
+    -70.0,
+    0.0
+   ],
+   "bbox_max_ue": [
+    90.0,
+    70.0,
+    90.0
+   ],
+   "pivot": "base centre, z 0 at the bottom"
+  },
+  "T_GW_SeaNormal": {
+   "file": "tex/T_GW_SeaNormal.png",
+   "purpose": "Sea ripple normal map: ~60 directional choppy wave components travelling along +U (wind), group modulation and capillary chop. Linear (sRGB off), OpenGL green-up.",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "RGB",
+   "seam_ratio": 1.0,
+   "size_bytes": 1716500,
+   "srgb": false,
+   "tileable": true
+  },
+  "T_GW_SeaFoam": {
+   "file": "tex/T_GW_SeaFoam.png",
+   "purpose": "Foam mask: whitecaps on the highest crests with trailing foam, long wind streaks along U, bubbly breakup. Mostly dark. Linear.",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "L",
+   "seam_ratio": 0.99,
+   "size_bytes": 161273,
+   "srgb": false,
+   "tileable": true
+  },
+  "T_GW_Clouds": {
+   "file": "tex/T_GW_Clouds.png",
+   "purpose": "Storm-cloud density (white = dense cloud, dark = thin gaps), billowy, high contrast. Linear.",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "L",
+   "seam_ratio": 0.9,
+   "size_bytes": 359019,
+   "srgb": false,
+   "tileable": true
+  },
+  "T_GW_RainStreaks": {
+   "file": "tex/T_GW_RainStreaks.png",
+   "purpose": "Falling-rain streak sheet: thin vertical streaks of varying length and brightness on black, brighter toward the falling head (bottom). Linear.",
+   "size": [
+    512,
+    1024
+   ],
+   "mode": "L",
+   "seam_ratio": 0.82,
+   "size_bytes": 127111,
+   "srgb": false,
+   "tileable": true
+  },
+  "T_GW_RainGlass": {
+   "file": "tex/T_GW_RainGlass.png",
+   "purpose": "Window-pane rain normal map: drops of all sizes plus short running rivulets (thin beaded trails that wipe the drops, heavy head drop at the bottom of the image). Linear, OpenGL green-up; flat areas = (128,128,255).",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "RGB",
+   "seam_ratio": 0.86,
+   "size_bytes": 606126,
+   "srgb": false,
+   "tileable": true
+  },
+  "T_GW_RainGlassMask": {
+   "file": "tex/T_GW_RainGlassMask.png",
+   "purpose": "Coverage mask of the same drops and rivulets (white = water). Linear.",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "L",
+   "coverage_fraction": 0.129,
+   "size_bytes": 256674,
+   "srgb": false,
+   "tileable": true
+  },
+  "T_GW_Rock_BaseColor": {
+   "file": "tex/T_GW_Rock_BaseColor.png",
+   "purpose": "Dark wet grey-brown cliff rock: irregular strata bands, wandering block joints and fine cracks, vertical water staining, cavity darkening. sRGB.",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "RGB",
+   "seam_ratio": 1.03,
+   "size_bytes": 881643,
+   "srgb": true,
+   "tileable": true
+  },
+  "T_GW_Rock_Normal": {
+   "file": "tex/T_GW_Rock_Normal.png",
+   "purpose": "Normal map matching T_GW_Rock_BaseColor (same height field). Linear, OpenGL green-up.",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "RGB",
+   "seam_ratio": 1.01,
+   "size_bytes": 1257034,
+   "srgb": false,
+   "tileable": true
+  },
+  "T_GW_Grass_BaseColor": {
+   "file": "tex/T_GW_Grass_BaseColor.png",
+   "purpose": "Dark wind-flattened coastal grass: ~34k painted blades lying along +U with a swirling flow, dull green / olive / straw patches over dark thatch. sRGB.",
+   "size": [
+    1024,
+    1024
+   ],
+   "mode": "RGB",
+   "seam_ratio": 1.01,
+   "size_bytes": 1326559,
+   "srgb": true,
+   "tileable": true
+  },
+  "thunder_1": {
+   "file": "audio/thunder_1.wav",
+   "purpose": "Close strike: hard broadband crack with secondary snaps, tearing crackle and low thump, then a heavy rolling rumble that decays.",
+   "duration_s": 9.0,
+   "sample_rate": 48000,
+   "channels": 1,
+   "bits": 16,
+   "peak_dbfs": -3.0,
+   "rms_dbfs": -24.88,
+   "clipped_samples": 0,
+   "size_bytes": 864044,
+   "loop": false
+  },
+  "thunder_2": {
+   "file": "audio/thunder_2.wav",
+   "purpose": "Mid-distance strike: softer crack, long rolling rumble with many bursts that come and go.",
+   "duration_s": 10.5,
+   "sample_rate": 48000,
+   "channels": 1,
+   "bits": 16,
+   "peak_dbfs": -3.0,
+   "rms_dbfs": -21.4,
+   "clipped_samples": 0,
+   "size_bytes": 1008044,
+   "loop": false
+  },
+  "thunder_3": {
+   "file": "audio/thunder_3.wav",
+   "purpose": "Distant thunder: no crack, slow swell, deep muffled roll.",
+   "duration_s": 8.0,
+   "sample_rate": 48000,
+   "channels": 1,
+   "bits": 16,
+   "peak_dbfs": -3.0,
+   "rms_dbfs": -20.47,
+   "clipped_samples": 0,
+   "size_bytes": 768044,
+   "loop": false
+  },
+  "rain_loop": {
+   "file": "audio/rain_loop.wav",
+   "purpose": "Heavy rain bed: hiss + body, dense far patter, closer ticks, ~10 drips. Seamless loop.",
+   "duration_s": 20.0,
+   "sample_rate": 48000,
+   "channels": 1,
+   "bits": 16,
+   "peak_dbfs": -3.0,
+   "rms_dbfs": -16.92,
+   "clipped_samples": 0,
+   "loop_seam_step_percentile": 58.8,
+   "loop_rms_first_vs_last_second_db": 0.02,
+   "size_bytes": 1920044,
+   "loop": true
+  },
+  "wind_loop": {
+   "file": "audio/wind_loop.wav",
+   "purpose": "Storm wind: band-passed noise with slow gusts (12-14 dB swings, brighter in gusts) and a faint howl (two narrow resonances gliding with the gusts). Seamless loop.",
+   "duration_s": 30.0,
+   "sample_rate": 48000,
+   "channels": 1,
+   "bits": 16,
+   "peak_dbfs": -3.0,
+   "rms_dbfs": -21.01,
+   "clipped_samples": 0,
+   "loop_seam_step_percentile": 87.9,
+   "loop_rms_first_vs_last_second_db": 1.69,
+   "size_bytes": 2880044,
+   "loop": true
+  },
+  "sea_loop": {
+   "file": "audio/sea_loop.wav",
+   "purpose": "Rough surf on rocks: steady low rumble and wash, 5 wave crashes 4..8 s apart (swell, impact, crash, backwash fizz). Seamless loop.",
+   "duration_s": 30.0,
+   "sample_rate": 48000,
+   "channels": 1,
+   "bits": 16,
+   "peak_dbfs": -3.0,
+   "rms_dbfs": -22.02,
+   "clipped_samples": 0,
+   "loop_seam_step_percentile": 5.1,
+   "loop_rms_first_vs_last_second_db": -0.56,
+   "crash_times_s": [
+    1.49,
+    7.84,
+    13.06,
+    20.09,
+    24.98
+   ],
+   "crash_gaps_s": [
+    6.35,
+    5.22,
+    7.03,
+    4.9,
+    6.51
+   ],
+   "size_bytes": 2880044,
+   "loop": true
+  }
+ },
+ "notes_and_deviations": [
+  "Trees: the trunk continues 40 cm below the pivot (straight down to z -40, plus the closing cap, bbox min z about -53) so the tree can sit on uneven ground without floating. The pivot is still the trunk base at ground level.",
+  "Island shore band: rock noise is clamped to -2150..-1992, so a few shore rock tops sit up to 8 cm above the -2000 sea level (they break the surf); otherwise the band is -2000..-2150.",
+  "Island normals: every face points up (true heightfield); 'normal_face_disagree' counts the few faces on sharp crags whose smooth vertex normals lean away from the face normal (shading only, not flipped faces).",
+  "Loops are seamless by construction (circular synthesis) rather than by a tail-to-head crossfade; loop_seam_step_percentile is the percentile of the last->first sample step among all sample steps (a value well inside 0..100 = no click).",
+  "Texture seam_ratio = mean jump across the wrap seams / mean neighbour step (about 1.0 = seamless); sparse features (cracks, strata) crossing an edge can push it a little above 1."
+ ]
+}

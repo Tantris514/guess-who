@@ -1,0 +1,255 @@
+{
+ "generated": {
+  "MI_GW_Wood_Walnut": "tex_wood_walnut",
+  "MI_GW_Wood_Mahogany": "tex_wood_mahogany",
+  "MI_GW_Wood_Oak": "tex_wood_oak",
+  "MI_GW_Wood_Dark": "tex_wood_walnut",
+  "MI_GW_Plaster_Cream": "tex_plaster_cream",
+  "MI_GW_Plaster_Ceiling": "tex_plaster_cream",
+  "MI_GW_Wall_DamaskRed": "wall_damask_red",
+  "MI_GW_Wall_DamaskGreen": "wall_damask_green",
+  "MI_GW_Wall_NavyGold": "wall_navy_gold",
+  "MI_GW_Wall_FloralCream": "wall_floral_cream",
+  "MI_GW_Marble_White": "tex_marble_white",
+  "MI_GW_Marble_Black": "tex_marble_black",
+  "MI_GW_Marble_Green": "tex_marble_green",
+  "MI_GW_Velvet_Red": "tex_velvet_red",
+  "MI_GW_Carpet_Red": "tex_carpet_red",
+  "MI_GW_GoldLeaf": "tex_gold_leaf",
+  "MI_GW_Stone": "tex_marble_white",
+  "MI_GW_Parquet": "tex_wood_oak",
+  "MI_GW_Parquet_Dark": "tex_wood_walnut",
+  "MI_GW_Parquet_Basket": "tex_wood_oak",
+  "MI_GW_Checker_Hall": "marble",
+  "MI_GW_Checker_Corridor": "marble",
+  "MI_GW_Checker_Conservatory": "marble",
+  "MI_GW_Window_Night": "window_night",
+  "MI_GW_Rug_Persian": "rug_persian",
+  "MI_GW_Rug_ArtDeco": "rug_artdeco",
+  "MI_GW_Rug_Runner": "rug_runner",
+  "MI_GW_Floor_Ballroom": "tex_parquet_chevron",
+  "MI_GW_Brass": "tex_brass"
+ },
+ "placeholder": [
+  "MI_GW_Paint_Ivory",
+  "MI_GW_Lacquer_Black",
+  "MI_GW_Velvet_Green",
+  "MI_GW_Velvet_Gold",
+  "MI_GW_Velvet_Navy",
+  "MI_GW_Felt_Green",
+  "MI_GW_Leather_Oxblood",
+  "MI_GW_Book_Oxblood",
+  "MI_GW_Book_Green",
+  "MI_GW_Book_Navy",
+  "MI_GW_Book_Brown",
+  "MI_GW_Book_Tan",
+  "MI_GW_Book_Black",
+  "MI_GW_Foliage",
+  "MI_GW_Grass",
+  "MI_GW_Bottle_Green",
+  "MI_GW_Bottle_Amber",
+  "MI_GW_Porcelain"
+ ],
+ "paintings": [
+  {
+   "mi": "/Game/GW/Materials/MI_GW_Painting_paint_artdeco",
+   "w": 864,
+   "h": 1152,
+   "name": "paint_artdeco",
+   "rooms": [
+    "ballroom",
+    "corridor_e",
+    "study"
+   ],
+   "notes": "Art Deco woman with a greyhound. size_cm = canvas [width, depth, height] without frame; image aspect is preserved."
+  },
+  {
+   "mi": "/Game/GW/Materials/MI_GW_Painting_paint_colonel",
+   "w": 864,
+   "h": 1152,
+   "name": "paint_colonel",
+   "rooms": [
+    "dining",
+    "hall",
+    "corridor_w",
+    "corridor_e"
+   ],
+   "notes": "portrait: old colonel in red dress uniform. size_cm = canvas [width, depth, height] without frame; image aspect is preserved."
+  },
+  {
+   "mi": "/Game/GW/Materials/MI_GW_Painting_paint_country",
+   "w": 1152,
+   "h": 864,
+   "name": "paint_country",
+   "rooms": [
+    "corridor_w",
+    "corridor_e",
+    "library",
+    "billiard",
+    "study",
+    "ballroom"
+   ],
+   "notes": "English countryside at golden hour. size_cm = canvas [width, depth, height] without frame; image aspect is preserved."
+  },
+  {
+   "mi": "/Game/GW/Materials/MI_GW_Painting_paint_dowager",
+   "w": 864,
+   "h": 1152,
+   "name": "paint_dowager",
+   "rooms": [
+    "dining",
+    "hall",
+    "corridor_w",
+    "corridor_e"
+   ],
+   "notes": "portrait: dowager duchess in black silk. size_cm = canvas [width, depth, height] without frame; image aspect is preserved."
+  },
+  {
+   "mi": "/Game/GW/Materials/MI_GW_Painting_paint_heir",
+   "w": 864,
+   "h": 1152,
+   "name": "paint_heir",
+   "rooms": [
+    "dining",
+    "hall",
+    "corridor_w",
+    "corridor_e"
+   ],
+   "notes": "portrait: young heir in tweed, autumn landscape. size_cm = canvas [width, depth, height] without frame; image aspect is preserved."
+  },
+  {
+   "mi": "/Game/GW/Materials/MI_GW_Painting_paint_horse",
+   "w": 1152,
+   "h": 864,
+   "name": "paint_horse",
+   "rooms": [
+    "corridor_w",
+    "corridor_e",
+    "library",
+    "billiard",
+    "study",
+    "ballroom"
+   ],
+   "notes": "racehorse held by a groom. size_cm = canvas [width, depth, height] without frame; image aspect is preserved."
+  },
+  {
+   "mi": "/Game/GW/Materials/MI_GW_Painting_paint_hunt",
+   "w": 1152,
+   "h": 864,
+   "name": "paint_hunt",
+   "rooms": [
+    "corridor_w",
+    "corridor_e",
+    "library",
+    "billiard",
+    "study",
+    "ballroom"
+   ],
+   "notes": "fox hunt landscape. size_cm = canvas [width, depth, height] without frame; image aspect is preserved."
+  },
+  {
+   "mi": "/Game/GW/Materials/MI_GW_Painting_paint_lady",
+   "w": 864,
+   "h": 1152,
+   "name": "paint_lady",
+   "rooms": [
+    "dining",
+    "hall",
+    "corridor_w",
+    "corridor_e"
+   ],
+   "notes": "portrait: lady in silver evening gown with pearls. size_cm = canvas [width, depth, height] without frame; image aspect is preserved."
+  },
+  {
+   "mi": "/Game/GW/Materials/MI_GW_Painting_paint_lord",
+   "w": 864,
+   "h": 1152,
+   "name": "paint_lord",
+   "rooms": [
+    "dining",
+    "hall",
+    "corridor_w",
+    "corridor_e"
+   ],
+   "notes": "portrait: aristocratic lord in white tie. size_cm = canvas [width, depth, height] without frame; image aspect is preserved."
+  },
+  {
+   "mi": "/Game/GW/Materials/MI_GW_Painting_paint_manor",
+   "w": 1152,
+   "h": 864,
+   "name": "paint_manor",
+   "rooms": [
+    "corridor_w",
+    "corridor_e",
+    "library",
+    "billiard",
+    "study",
+    "ballroom",
+    "hall"
+   ],
+   "notes": "Georgian manor house (the family seat). size_cm = canvas [width, depth, height] without frame; image aspect is preserved."
+  },
+  {
+   "mi": "/Game/GW/Materials/MI_GW_Painting_paint_mountains",
+   "w": 1152,
+   "h": 864,
+   "name": "paint_mountains",
+   "rooms": [
+    "corridor_w",
+    "corridor_e",
+    "library",
+    "billiard",
+    "study",
+    "ballroom"
+   ],
+   "notes": "Scottish highlands with a stag. size_cm = canvas [width, depth, height] without frame; image aspect is preserved."
+  },
+  {
+   "mi": "/Game/GW/Materials/MI_GW_Painting_paint_sea",
+   "w": 1152,
+   "h": 864,
+   "name": "paint_sea",
+   "rooms": [
+    "corridor_w",
+    "corridor_e",
+    "library",
+    "billiard",
+    "study",
+    "ballroom"
+   ],
+   "notes": "sailing ship in a storm. size_cm = canvas [width, depth, height] without frame; image aspect is preserved."
+  },
+  {
+   "mi": "/Game/GW/Materials/MI_GW_Painting_paint_stilllife",
+   "w": 864,
+   "h": 1152,
+   "name": "paint_stilllife",
+   "rooms": [
+    "dining",
+    "corridor_w",
+    "corridor_e"
+   ],
+   "notes": "Dutch-style still life with flowers and pheasant. size_cm = canvas [width, depth, height] without frame; image aspect is preserved."
+  },
+  {
+   "mi": "/Game/GW/Materials/MI_GW_Painting_paint_venice",
+   "w": 1152,
+   "h": 864,
+   "name": "paint_venice",
+   "rooms": [
+    "corridor_w",
+    "corridor_e",
+    "library",
+    "billiard",
+    "study",
+    "ballroom"
+   ],
+   "notes": "Grand Canal, Venice. size_cm = canvas [width, depth, height] without frame; image aspect is preserved."
+  }
+ ],
+ "aspect": {
+  "MI_GW_Rug_Persian": 1.5058823529411764,
+  "MI_GW_Rug_ArtDeco": 1.514792899408284
+ },
+ "runner_aspect": 3.506849315068493
+}

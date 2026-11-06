@@ -1,0 +1,54 @@
+# Allow-list: only code, tools and documents go to the public repository.
+# The engine, builds, game content, generated media and logs stay on this machine.
+/*
+!/.gitignore
+!/README.md
+!/BACKLOG.md
+!/GUIDE_JOUEUR.md
+!/PLAN.md
+!/VOIX_ARCHITECTURE.md
+
+# The Unreal project: descriptor, code, config
+!/GuessWho/
+/GuessWho/*
+!/GuessWho/GuessWho.uproject
+!/GuessWho/Source/
+!/GuessWho/Config/
+
+# Holds the EOS keys: never published. DefaultEngine.ini.example has the same file with the [GWEOS] values blanked.
+/GuessWho/Config/DefaultEngine.ini
+
+# Scripts
+!/Tools/
+!/AssetGen/
+/AssetGen/**
+!/AssetGen/**/
+!/AssetGen/**/*.py
+
+# Inside what is allowed above
+*credentials*
+*.env
+.env*
+*.key
+*.pem
+*.log
+*.pyc
+__pycache__/
+/Tools/agent_logs/
+/Tools/package_logs/
+/Tools/gameplay/logs/
+/Tools/**/logs/
+/Tools/**/*.png
+/Tools/**/*.jpg
+/Tools/**/*.wav
+/Tools/**/*.mp3
+/Tools/**/*.exe
+/Tools/**/*.zip
+/Tools/**/*.lnk
+/Tools/**/*.bmp
+/Tools/**/*.gif
+/Tools/**/*.dmp
+/Tools/**/*.csv
+/Tools/qa/pkg_*/
+/Tools/ui/shots/
+/Tools/anim/qa/

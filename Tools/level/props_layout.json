@@ -1,0 +1,4328 @@
+[
+{
+"label": "armchair_club_144",
+"mesh": "armchair_club",
+"room": "Dress_hall",
+"x": 3620.0,
+"y": 2160.0,
+"z": 50.1,
+"yaw": 135.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_145",
+"mesh": "armchair_club",
+"room": "Dress_hall",
+"x": 2380.0,
+"y": 2160.0,
+"z": 50.1,
+"yaw": -135.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_146",
+"mesh": "armchair_club",
+"room": "Dress_hall",
+"x": 2550.0,
+"y": 1780.0,
+"z": 50.1,
+"yaw": 180.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_147",
+"mesh": "armchair_club",
+"room": "Dress_hall",
+"x": 2690.0,
+"y": 1780.0,
+"z": 50.1,
+"yaw": 180.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_148",
+"mesh": "armchair_club",
+"room": "Dress_hall",
+"x": 3310.0,
+"y": 1780.0,
+"z": 50.1,
+"yaw": 180.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_149",
+"mesh": "armchair_club",
+"room": "Dress_hall",
+"x": 3450.0,
+"y": 1780.0,
+"z": 50.1,
+"yaw": 180.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_177",
+"mesh": "armchair_club",
+"room": "Dress_gallery",
+"x": 2880.0,
+"y": 2320.0,
+"z": 550.1,
+"yaw": -135.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_178",
+"mesh": "armchair_club",
+"room": "Dress_gallery",
+"x": 3120.0,
+"y": 2320.0,
+"z": 550.1,
+"yaw": 135.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_242",
+"mesh": "armchair_club",
+"room": "Dress_billiard",
+"x": 5720.0,
+"y": 560.0,
+"z": 50.1,
+"yaw": -30.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_243",
+"mesh": "armchair_club",
+"room": "Dress_billiard",
+"x": 5720.0,
+"y": 1240.0,
+"z": 50.1,
+"yaw": -150.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_244",
+"mesh": "armchair_club",
+"room": "Dress_billiard",
+"x": 4750.0,
+"y": 55.0,
+"z": 50.1,
+"yaw": 0.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_245",
+"mesh": "armchair_club",
+"room": "Dress_billiard",
+"x": 5250.0,
+"y": 55.0,
+"z": 50.1,
+"yaw": 0.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_271",
+"mesh": "armchair_club",
+"room": "Dress_study",
+"x": 4380.0,
+"y": 2580.0,
+"z": 50.1,
+"yaw": 60.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_272",
+"mesh": "armchair_club",
+"room": "Dress_study",
+"x": 4380.0,
+"y": 3020.0,
+"z": 50.1,
+"yaw": 120.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_3",
+"mesh": "armchair_club",
+"room": "Dress_library",
+"x": 820.0,
+"y": 3400.0,
+"z": 50.1,
+"yaw": 90.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_33",
+"mesh": "armchair_club",
+"room": "Dress_dining",
+"x": 300.0,
+"y": 700.0,
+"z": 50.1,
+"yaw": 42.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_34",
+"mesh": "armchair_club",
+"room": "Dress_dining",
+"x": 300.0,
+"y": 1100.0,
+"z": 50.1,
+"yaw": 138.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_4",
+"mesh": "armchair_club",
+"room": "Dress_library",
+"x": 1220.0,
+"y": 2960.0,
+"z": 50.1,
+"yaw": -90.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_5",
+"mesh": "armchair_club",
+"room": "Dress_library",
+"x": 1780.0,
+"y": 2960.0,
+"z": 50.1,
+"yaw": 90.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_6",
+"mesh": "armchair_club",
+"room": "Dress_library",
+"x": 640.0,
+"y": 4150.0,
+"z": 50.1,
+"yaw": -90.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armchair_club_7",
+"mesh": "armchair_club",
+"room": "Dress_library",
+"x": 860.0,
+"y": 4150.0,
+"z": 50.1,
+"yaw": 90.0,
+"scale": [
+1.004,
+0.996,
+1.001
+]
+},
+{
+"label": "armor_suit_137",
+"mesh": "armor_suit",
+"room": "Dress_hall",
+"x": 2620.0,
+"y": 2353.0,
+"z": 92.0,
+"yaw": 180.0,
+"scale": [
+1.981,
+1.975,
+1.971
+]
+},
+{
+"label": "armor_suit_138",
+"mesh": "armor_suit",
+"room": "Dress_hall",
+"x": 3380.0,
+"y": 2353.0,
+"z": 92.0,
+"yaw": 180.0,
+"scale": [
+1.981,
+1.975,
+1.971
+]
+},
+{
+"label": "bar_cart_259",
+"mesh": "bar_cart",
+"room": "Dress_billiard",
+"x": 4790.0,
+"y": 1560.0,
+"z": 42.5,
+"yaw": 180.0,
+"scale": [
+0.844,
+0.855,
+0.849
+]
+},
+{
+"label": "bar_cart_32",
+"mesh": "bar_cart",
+"room": "Dress_dining",
+"x": 1900.0,
+"y": 1010.0,
+"z": 42.5,
+"yaw": 90.0,
+"scale": [
+0.844,
+0.855,
+0.849
+]
+},
+{
+"label": "bench_104",
+"mesh": "bench",
+"room": "Dress_corridor_w",
+"x": 700.0,
+"y": 2350.0,
+"z": 25.0,
+"yaw": 180.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "bench_105",
+"mesh": "bench",
+"room": "Dress_corridor_w",
+"x": 1300.0,
+"y": 2350.0,
+"z": 25.0,
+"yaw": 180.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "bench_130",
+"mesh": "bench",
+"room": "Dress_corridor_e",
+"x": 4700.0,
+"y": 2350.0,
+"z": 25.0,
+"yaw": 180.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "bench_131",
+"mesh": "bench",
+"room": "Dress_corridor_e",
+"x": 5300.0,
+"y": 2350.0,
+"z": 25.0,
+"yaw": 180.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "bench_165",
+"mesh": "bench",
+"room": "Dress_hall",
+"x": 3426.0,
+"y": 190.0,
+"z": 25.0,
+"yaw": -90.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "bench_166",
+"mesh": "bench",
+"room": "Dress_hall",
+"x": 2300.0,
+"y": 68.0,
+"z": 25.0,
+"yaw": 0.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "bench_167",
+"mesh": "bench",
+"room": "Dress_hall",
+"x": 3700.0,
+"y": 68.0,
+"z": 25.0,
+"yaw": 0.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "bench_173",
+"mesh": "bench",
+"room": "Dress_gallery",
+"x": 2600.0,
+"y": 2350.0,
+"z": 525.0,
+"yaw": 180.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "bench_174",
+"mesh": "bench",
+"room": "Dress_gallery",
+"x": 3400.0,
+"y": 2350.0,
+"z": 525.0,
+"yaw": 180.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "bench_261",
+"mesh": "bench",
+"room": "Dress_billiard",
+"x": 4500.0,
+"y": 68.0,
+"z": 25.0,
+"yaw": 0.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "bench_262",
+"mesh": "bench",
+"room": "Dress_billiard",
+"x": 5000.0,
+"y": 68.0,
+"z": 25.0,
+"yaw": 0.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "bench_263",
+"mesh": "bench",
+"room": "Dress_billiard",
+"x": 5500.0,
+"y": 68.0,
+"z": 25.0,
+"yaw": 0.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "bench_29",
+"mesh": "bench",
+"room": "Dress_library",
+"x": 400.0,
+"y": 4332.0,
+"z": 25.0,
+"yaw": 180.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "bench_30",
+"mesh": "bench",
+"room": "Dress_library",
+"x": 1000.0,
+"y": 4332.0,
+"z": 25.0,
+"yaw": 180.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "bench_304",
+"mesh": "bench",
+"room": "Dress_cloakroom",
+"x": 3345.0,
+"y": 260.0,
+"z": 25.0,
+"yaw": 90.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "bench_31",
+"mesh": "bench",
+"room": "Dress_library",
+"x": 1600.0,
+"y": 4332.0,
+"z": 25.0,
+"yaw": 180.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "bench_39",
+"mesh": "bench",
+"room": "Dress_dining",
+"x": 500.0,
+"y": 68.0,
+"z": 25.0,
+"yaw": 0.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "bench_40",
+"mesh": "bench",
+"room": "Dress_dining",
+"x": 1000.0,
+"y": 68.0,
+"z": 25.0,
+"yaw": 0.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "bench_41",
+"mesh": "bench",
+"room": "Dress_dining",
+"x": 1500.0,
+"y": 68.0,
+"z": 25.0,
+"yaw": 0.0,
+"scale": [
+1.398,
+1.174,
+1.148
+]
+},
+{
+"label": "billiard_table_240",
+"mesh": "billiard_table",
+"room": "Dress_billiard",
+"x": 5000.0,
+"y": 900.0,
+"z": 42.5,
+"yaw": 0.0,
+"scale": [
+2.894,
+2.21,
+1.804
+]
+},
+{
+"label": "bust_marble_100",
+"mesh": "bust_marble",
+"room": "Dress_corridor_w",
+"x": 85.0,
+"y": 1875.0,
+"z": 82.1,
+"yaw": -90.0,
+"scale": [
+1.765,
+1.746,
+1.756
+]
+},
+{
+"label": "bust_marble_101",
+"mesh": "bust_marble",
+"room": "Dress_corridor_w",
+"x": 85.0,
+"y": 2325.0,
+"z": 82.1,
+"yaw": -90.0,
+"scale": [
+1.765,
+1.746,
+1.756
+]
+},
+{
+"label": "bust_marble_102",
+"mesh": "bust_marble",
+"room": "Dress_corridor_w",
+"x": 727.5,
+"y": 1848.6,
+"z": 82.1,
+"yaw": 0.0,
+"scale": [
+1.765,
+1.746,
+1.756
+]
+},
+{
+"label": "bust_marble_103",
+"mesh": "bust_marble",
+"room": "Dress_corridor_w",
+"x": 1272.5,
+"y": 1848.6,
+"z": 82.1,
+"yaw": 0.0,
+"scale": [
+1.765,
+1.746,
+1.756
+]
+},
+{
+"label": "bust_marble_126",
+"mesh": "bust_marble",
+"room": "Dress_corridor_e",
+"x": 5915.0,
+"y": 1875.0,
+"z": 82.1,
+"yaw": 90.0,
+"scale": [
+1.765,
+1.746,
+1.756
+]
+},
+{
+"label": "bust_marble_127",
+"mesh": "bust_marble",
+"room": "Dress_corridor_e",
+"x": 5915.0,
+"y": 2325.0,
+"z": 82.1,
+"yaw": 90.0,
+"scale": [
+1.765,
+1.746,
+1.756
+]
+},
+{
+"label": "bust_marble_128",
+"mesh": "bust_marble",
+"room": "Dress_corridor_e",
+"x": 4727.5,
+"y": 1848.6,
+"z": 82.1,
+"yaw": 0.0,
+"scale": [
+1.765,
+1.746,
+1.756
+]
+},
+{
+"label": "bust_marble_129",
+"mesh": "bust_marble",
+"room": "Dress_corridor_e",
+"x": 5272.5,
+"y": 1848.6,
+"z": 82.1,
+"yaw": 0.0,
+"scale": [
+1.765,
+1.746,
+1.756
+]
+},
+{
+"label": "bust_marble_141",
+"mesh": "bust_marble",
+"room": "Dress_hall",
+"x": 2380.0,
+"y": 960.0,
+"z": 82.1,
+"yaw": 180.0,
+"scale": [
+1.765,
+1.746,
+1.756
+]
+},
+{
+"label": "bust_marble_142",
+"mesh": "bust_marble",
+"room": "Dress_hall",
+"x": 3620.0,
+"y": 960.0,
+"z": 82.1,
+"yaw": 180.0,
+"scale": [
+1.765,
+1.746,
+1.756
+]
+},
+{
+"label": "bust_marble_175",
+"mesh": "bust_marble",
+"room": "Dress_gallery",
+"x": 2350.0,
+"y": 2340.0,
+"z": 582.1,
+"yaw": 180.0,
+"scale": [
+1.765,
+1.746,
+1.756
+]
+},
+{
+"label": "bust_marble_176",
+"mesh": "bust_marble",
+"room": "Dress_gallery",
+"x": 3650.0,
+"y": 2340.0,
+"z": 582.1,
+"yaw": 180.0,
+"scale": [
+1.765,
+1.746,
+1.756
+]
+},
+{
+"label": "bust_marble_184",
+"mesh": "bust_marble",
+"room": "Dress_ballroom",
+"x": 2440.0,
+"y": 3850.0,
+"z": 82.1,
+"yaw": 180.0,
+"scale": [
+1.765,
+1.746,
+1.756
+]
+},
+{
+"label": "bust_marble_185",
+"mesh": "bust_marble",
+"room": "Dress_ballroom",
+"x": 3560.0,
+"y": 3850.0,
+"z": 82.1,
+"yaw": 180.0,
+"scale": [
+1.765,
+1.746,
+1.756
+]
+},
+{
+"label": "bust_marble_27",
+"mesh": "bust_marble",
+"room": "Dress_library",
+"x": 1855.0,
+"y": 3200.0,
+"z": 82.1,
+"yaw": 90.0,
+"scale": [
+1.765,
+1.746,
+1.756
+]
+},
+{
+"label": "bust_marble_28",
+"mesh": "bust_marble",
+"room": "Dress_library",
+"x": 1855.0,
+"y": 3600.0,
+"z": 82.1,
+"yaw": 90.0,
+"scale": [
+1.765,
+1.746,
+1.756
+]
+},
+{
+"label": "candelabra_62",
+"mesh": "candelabra",
+"room": "Dress_dining",
+"x": 850.0,
+"y": 900.0,
+"z": 107.0,
+"yaw": -90.0,
+"scale": [
+0.6,
+0.601,
+0.599
+]
+},
+{
+"label": "candelabra_63",
+"mesh": "candelabra",
+"room": "Dress_dining",
+"x": 1250.0,
+"y": 900.0,
+"z": 107.0,
+"yaw": -90.0,
+"scale": [
+0.6,
+0.601,
+0.599
+]
+},
+{
+"label": "candelabra_64",
+"mesh": "candelabra",
+"room": "Dress_dining",
+"x": 430.0,
+"y": 1752.8,
+"z": 105.0,
+"yaw": -90.0,
+"scale": [
+0.6,
+0.601,
+0.599
+]
+},
+{
+"label": "candelabra_65",
+"mesh": "candelabra",
+"room": "Dress_dining",
+"x": 1470.0,
+"y": 1752.8,
+"z": 105.0,
+"yaw": -90.0,
+"scale": [
+0.6,
+0.601,
+0.599
+]
+},
+{
+"label": "candelabra_66",
+"mesh": "candelabra",
+"room": "Dress_dining",
+"x": 1952.8,
+"y": 1290.0,
+"z": 105.0,
+"yaw": -90.0,
+"scale": [
+0.6,
+0.601,
+0.599
+]
+},
+{
+"label": "candelabra_67",
+"mesh": "candelabra",
+"room": "Dress_dining",
+"x": 1952.8,
+"y": 1410.0,
+"z": 105.0,
+"yaw": -90.0,
+"scale": [
+0.6,
+0.601,
+0.599
+]
+},
+{
+"label": "chair_dining_118",
+"mesh": "chair_dining",
+"room": "Dress_corridor_e",
+"x": 4335.0,
+"y": 2351.5,
+"z": 52.5,
+"yaw": 180.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_119",
+"mesh": "chair_dining",
+"room": "Dress_corridor_e",
+"x": 4535.0,
+"y": 2351.5,
+"z": 52.5,
+"yaw": 180.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_120",
+"mesh": "chair_dining",
+"room": "Dress_corridor_e",
+"x": 4335.0,
+"y": 1848.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_121",
+"mesh": "chair_dining",
+"room": "Dress_corridor_e",
+"x": 4535.0,
+"y": 1848.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_122",
+"mesh": "chair_dining",
+"room": "Dress_corridor_e",
+"x": 5465.0,
+"y": 2351.5,
+"z": 52.5,
+"yaw": 180.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_123",
+"mesh": "chair_dining",
+"room": "Dress_corridor_e",
+"x": 5665.0,
+"y": 2351.5,
+"z": 52.5,
+"yaw": 180.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_124",
+"mesh": "chair_dining",
+"room": "Dress_corridor_e",
+"x": 5465.0,
+"y": 1848.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_125",
+"mesh": "chair_dining",
+"room": "Dress_corridor_e",
+"x": 5665.0,
+"y": 1848.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_186",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2160.0,
+"y": 2446.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_187",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2240.0,
+"y": 2446.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_188",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2320.0,
+"y": 2446.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_189",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2530.0,
+"y": 2446.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_190",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2610.0,
+"y": 2446.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_191",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2690.0,
+"y": 2446.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_192",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3340.0,
+"y": 2446.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_193",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3420.0,
+"y": 2446.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_194",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3500.0,
+"y": 2446.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_195",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2062.0,
+"y": 2520.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_196",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2062.0,
+"y": 2600.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_197",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2062.0,
+"y": 2680.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_198",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2062.0,
+"y": 2760.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_199",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2062.0,
+"y": 2840.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_200",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2062.0,
+"y": 2920.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_201",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2062.0,
+"y": 3000.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_202",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2062.0,
+"y": 3080.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_203",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2062.0,
+"y": 3160.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_204",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2062.0,
+"y": 3580.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_205",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2062.0,
+"y": 3660.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_206",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2062.0,
+"y": 3740.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_207",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2062.0,
+"y": 3820.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_208",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2062.0,
+"y": 3900.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_209",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2062.0,
+"y": 3980.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_210",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3938.0,
+"y": 2520.0,
+"z": 52.5,
+"yaw": 90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_211",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3938.0,
+"y": 2600.0,
+"z": 52.5,
+"yaw": 90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_212",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3938.0,
+"y": 2680.0,
+"z": 52.5,
+"yaw": 90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_213",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3938.0,
+"y": 2760.0,
+"z": 52.5,
+"yaw": 90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_214",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3938.0,
+"y": 2840.0,
+"z": 52.5,
+"yaw": 90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_215",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3938.0,
+"y": 2920.0,
+"z": 52.5,
+"yaw": 90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_216",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3938.0,
+"y": 3000.0,
+"z": 52.5,
+"yaw": 90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_217",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3938.0,
+"y": 3080.0,
+"z": 52.5,
+"yaw": 90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_218",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3938.0,
+"y": 3160.0,
+"z": 52.5,
+"yaw": 90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_219",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3938.0,
+"y": 3240.0,
+"z": 52.5,
+"yaw": 90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_220",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3938.0,
+"y": 3320.0,
+"z": 52.5,
+"yaw": 90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_221",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3938.0,
+"y": 3400.0,
+"z": 52.5,
+"yaw": 90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_222",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3938.0,
+"y": 3480.0,
+"z": 52.5,
+"yaw": 90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_223",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3938.0,
+"y": 3560.0,
+"z": 52.5,
+"yaw": 90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_224",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3938.0,
+"y": 3990.0,
+"z": 52.5,
+"yaw": 90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_225",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3938.0,
+"y": 4070.0,
+"z": 52.5,
+"yaw": 90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_226",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2311.7,
+"y": 2801.0,
+"z": 52.5,
+"yaw": -120.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_227",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2311.7,
+"y": 2699.0,
+"z": 52.5,
+"yaw": -60.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_228",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3688.3,
+"y": 2699.0,
+"z": 52.5,
+"yaw": 60.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_229",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3688.3,
+"y": 2801.0,
+"z": 52.5,
+"yaw": 120.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_230",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2311.7,
+"y": 3651.0,
+"z": 52.5,
+"yaw": -120.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_231",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 2311.7,
+"y": 3549.0,
+"z": 52.5,
+"yaw": -60.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_232",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3651.0,
+"y": 3511.7,
+"z": 52.5,
+"yaw": 30.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_233",
+"mesh": "chair_dining",
+"room": "Dress_ballroom",
+"x": 3549.0,
+"y": 3511.7,
+"z": 52.5,
+"yaw": -30.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_252",
+"mesh": "chair_dining",
+"room": "Dress_billiard",
+"x": 4046.5,
+"y": 860.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_253",
+"mesh": "chair_dining",
+"room": "Dress_billiard",
+"x": 4046.5,
+"y": 1020.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_277",
+"mesh": "chair_dining",
+"room": "Dress_study",
+"x": 5405.0,
+"y": 2740.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_278",
+"mesh": "chair_dining",
+"room": "Dress_study",
+"x": 5405.0,
+"y": 2860.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_44",
+"mesh": "chair_dining",
+"room": "Dress_dining",
+"x": 825.0,
+"y": 808.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_45",
+"mesh": "chair_dining",
+"room": "Dress_dining",
+"x": 825.0,
+"y": 991.5,
+"z": 52.5,
+"yaw": 180.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_46",
+"mesh": "chair_dining",
+"room": "Dress_dining",
+"x": 915.0,
+"y": 808.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_47",
+"mesh": "chair_dining",
+"room": "Dress_dining",
+"x": 915.0,
+"y": 991.5,
+"z": 52.5,
+"yaw": 180.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_48",
+"mesh": "chair_dining",
+"room": "Dress_dining",
+"x": 1005.0,
+"y": 808.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_49",
+"mesh": "chair_dining",
+"room": "Dress_dining",
+"x": 1005.0,
+"y": 991.5,
+"z": 52.5,
+"yaw": 180.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_50",
+"mesh": "chair_dining",
+"room": "Dress_dining",
+"x": 1095.0,
+"y": 808.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_51",
+"mesh": "chair_dining",
+"room": "Dress_dining",
+"x": 1095.0,
+"y": 991.5,
+"z": 52.5,
+"yaw": 180.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_52",
+"mesh": "chair_dining",
+"room": "Dress_dining",
+"x": 1185.0,
+"y": 808.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_53",
+"mesh": "chair_dining",
+"room": "Dress_dining",
+"x": 1185.0,
+"y": 991.5,
+"z": 52.5,
+"yaw": 180.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_54",
+"mesh": "chair_dining",
+"room": "Dress_dining",
+"x": 1275.0,
+"y": 808.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_55",
+"mesh": "chair_dining",
+"room": "Dress_dining",
+"x": 1275.0,
+"y": 991.5,
+"z": 52.5,
+"yaw": 180.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_56",
+"mesh": "chair_dining",
+"room": "Dress_dining",
+"x": 718.0,
+"y": 900.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_57",
+"mesh": "chair_dining",
+"room": "Dress_dining",
+"x": 1382.0,
+"y": 900.0,
+"z": 52.5,
+"yaw": 90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_58",
+"mesh": "chair_dining",
+"room": "Dress_dining",
+"x": 46.5,
+"y": 560.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_59",
+"mesh": "chair_dining",
+"room": "Dress_dining",
+"x": 46.5,
+"y": 640.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_60",
+"mesh": "chair_dining",
+"room": "Dress_dining",
+"x": 46.5,
+"y": 1170.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_61",
+"mesh": "chair_dining",
+"room": "Dress_dining",
+"x": 46.5,
+"y": 1250.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_94",
+"mesh": "chair_dining",
+"room": "Dress_corridor_w",
+"x": 535.0,
+"y": 2351.5,
+"z": 52.5,
+"yaw": 180.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_95",
+"mesh": "chair_dining",
+"room": "Dress_corridor_w",
+"x": 535.0,
+"y": 1848.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_96",
+"mesh": "chair_dining",
+"room": "Dress_corridor_w",
+"x": 1465.0,
+"y": 2351.5,
+"z": 52.5,
+"yaw": 180.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_97",
+"mesh": "chair_dining",
+"room": "Dress_corridor_w",
+"x": 1665.0,
+"y": 2351.5,
+"z": 52.5,
+"yaw": 180.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_98",
+"mesh": "chair_dining",
+"room": "Dress_corridor_w",
+"x": 1465.0,
+"y": 1848.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_dining_99",
+"mesh": "chair_dining",
+"room": "Dress_corridor_w",
+"x": 1665.0,
+"y": 1848.5,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.053,
+1.048,
+1.049
+]
+},
+{
+"label": "chair_wicker_290",
+"mesh": "chair_wicker",
+"room": "Dress_conservatory",
+"x": 4500.0,
+"y": 3450.0,
+"z": 45.0,
+"yaw": -30.0,
+"scale": [
+0.9,
+0.896,
+0.901
+]
+},
+{
+"label": "chair_wicker_291",
+"mesh": "chair_wicker",
+"room": "Dress_conservatory",
+"x": 4700.0,
+"y": 3600.0,
+"z": 45.0,
+"yaw": 110.0,
+"scale": [
+0.9,
+0.896,
+0.901
+]
+},
+{
+"label": "chair_wicker_292",
+"mesh": "chair_wicker",
+"room": "Dress_conservatory",
+"x": 5750.0,
+"y": 4150.0,
+"z": 45.0,
+"yaw": 150.0,
+"scale": [
+0.9,
+0.896,
+0.901
+]
+},
+{
+"label": "chair_wicker_293",
+"mesh": "chair_wicker",
+"room": "Dress_conservatory",
+"x": 5550.0,
+"y": 4280.0,
+"z": 45.0,
+"yaw": -150.0,
+"scale": [
+0.9,
+0.896,
+0.901
+]
+},
+{
+"label": "chair_wicker_294",
+"mesh": "chair_wicker",
+"room": "Dress_conservatory",
+"x": 5450.0,
+"y": 3380.0,
+"z": 45.0,
+"yaw": -90.0,
+"scale": [
+0.9,
+0.896,
+0.901
+]
+},
+{
+"label": "chair_wicker_295",
+"mesh": "chair_wicker",
+"room": "Dress_conservatory",
+"x": 5650.0,
+"y": 3380.0,
+"z": 45.0,
+"yaw": 90.0,
+"scale": [
+0.9,
+0.896,
+0.901
+]
+},
+{
+"label": "chair_wicker_296",
+"mesh": "chair_wicker",
+"room": "Dress_conservatory",
+"x": 5150.0,
+"y": 4080.0,
+"z": 45.0,
+"yaw": -150.0,
+"scale": [
+0.9,
+0.896,
+0.901
+]
+},
+{
+"label": "chair_wicker_297",
+"mesh": "chair_wicker",
+"room": "Dress_conservatory",
+"x": 5350.0,
+"y": 4080.0,
+"z": 45.0,
+"yaw": 150.0,
+"scale": [
+0.9,
+0.896,
+0.901
+]
+},
+{
+"label": "chair_wingback_17",
+"mesh": "chair_wingback",
+"room": "Dress_library",
+"x": 1250.0,
+"y": 3820.0,
+"z": 57.5,
+"yaw": 0.0,
+"scale": [
+1.092,
+1.013,
+1.149
+]
+},
+{
+"label": "chair_wingback_18",
+"mesh": "chair_wingback",
+"room": "Dress_library",
+"x": 1500.0,
+"y": 2760.0,
+"z": 57.5,
+"yaw": 0.0,
+"scale": [
+1.092,
+1.013,
+1.149
+]
+},
+{
+"label": "chair_wingback_19",
+"mesh": "chair_wingback",
+"room": "Dress_library",
+"x": 400.0,
+"y": 2750.0,
+"z": 57.5,
+"yaw": -45.0,
+"scale": [
+1.092,
+1.013,
+1.149
+]
+},
+{
+"label": "chair_wingback_265",
+"mesh": "chair_wingback",
+"room": "Dress_study",
+"x": 5650.0,
+"y": 2800.0,
+"z": 57.5,
+"yaw": 90.0,
+"scale": [
+1.092,
+1.013,
+1.149
+]
+},
+{
+"label": "champagne_table_236",
+"mesh": "champagne_table",
+"room": "Dress_ballroom",
+"x": 2400.0,
+"y": 2750.0,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.051,
+1.044,
+1.048
+]
+},
+{
+"label": "champagne_table_237",
+"mesh": "champagne_table",
+"room": "Dress_ballroom",
+"x": 3600.0,
+"y": 2750.0,
+"z": 52.5,
+"yaw": -90.0,
+"scale": [
+1.051,
+1.044,
+1.048
+]
+},
+{
+"label": "champagne_table_238",
+"mesh": "champagne_table",
+"room": "Dress_ballroom",
+"x": 2400.0,
+"y": 3600.0,
+"z": 52.5,
+"yaw": 90.0,
+"scale": [
+1.051,
+1.044,
+1.048
+]
+},
+{
+"label": "champagne_table_239",
+"mesh": "champagne_table",
+"room": "Dress_ballroom",
+"x": 3600.0,
+"y": 3600.0,
+"z": 52.5,
+"yaw": 0.0,
+"scale": [
+1.051,
+1.044,
+1.048
+]
+},
+{
+"label": "clock_grandfather_136",
+"mesh": "clock_grandfather",
+"room": "Dress_hall",
+"x": 2470.0,
+"y": 2359.5,
+"z": 106.0,
+"yaw": 180.0,
+"scale": [
+2.11,
+2.105,
+2.117
+]
+},
+{
+"label": "clock_grandfather_79",
+"mesh": "clock_grandfather",
+"room": "Dress_dining",
+"x": 1959.5,
+"y": 1690.0,
+"z": 106.0,
+"yaw": 90.0,
+"scale": [
+2.11,
+2.105,
+2.117
+]
+},
+{
+"label": "coat_rack_162",
+"mesh": "coat_rack",
+"room": "Dress_hall",
+"x": 2560.0,
+"y": 380.1,
+"z": 95.0,
+"yaw": 0.0,
+"scale": [
+1.888,
+1.887,
+1.898
+]
+},
+{
+"label": "coat_rack_163",
+"mesh": "coat_rack",
+"room": "Dress_hall",
+"x": 3440.0,
+"y": 380.1,
+"z": 95.0,
+"yaw": 0.0,
+"scale": [
+1.888,
+1.887,
+1.898
+]
+},
+{
+"label": "coat_rack_306",
+"mesh": "coat_rack",
+"room": "Dress_cloakroom",
+"x": 2840.0,
+"y": 289.9,
+"z": 95.0,
+"yaw": 180.0,
+"scale": [
+1.888,
+1.887,
+1.898
+]
+},
+{
+"label": "coat_rack_307",
+"mesh": "coat_rack",
+"room": "Dress_cloakroom",
+"x": 3160.0,
+"y": 289.9,
+"z": 95.0,
+"yaw": 180.0,
+"scale": [
+1.888,
+1.887,
+1.898
+]
+},
+{
+"label": "curio_cabinet_160",
+"mesh": "curio_cabinet",
+"room": "Dress_hall",
+"x": 2750.0,
+"y": 522.7,
+"z": 90.0,
+"yaw": 0.0,
+"scale": [
+1.789,
+1.286,
+1.796
+]
+},
+{
+"label": "curio_cabinet_161",
+"mesh": "curio_cabinet",
+"room": "Dress_hall",
+"x": 3250.0,
+"y": 522.7,
+"z": 90.0,
+"yaw": 0.0,
+"scale": [
+1.789,
+1.286,
+1.796
+]
+},
+{
+"label": "curio_cabinet_38",
+"mesh": "curio_cabinet",
+"room": "Dress_dining",
+"x": 1560.3,
+"y": 1400.0,
+"z": 90.0,
+"yaw": 90.0,
+"scale": [
+1.789,
+1.286,
+1.796
+]
+},
+{
+"label": "desk_partners_16",
+"mesh": "desk_partners",
+"room": "Dress_library",
+"x": 1250.0,
+"y": 3950.0,
+"z": 39.0,
+"yaw": 180.0,
+"scale": [
+1.499,
+1.483,
+1.25
+]
+},
+{
+"label": "desk_partners_264",
+"mesh": "desk_partners",
+"room": "Dress_study",
+"x": 5520.0,
+"y": 2800.0,
+"z": 39.0,
+"yaw": 90.0,
+"scale": [
+1.499,
+1.483,
+1.25
+]
+},
+{
+"label": "globe_floor_24",
+"mesh": "globe_floor",
+"room": "Dress_library",
+"x": 1700.0,
+"y": 3700.0,
+"z": 50.0,
+"yaw": 110.0,
+"scale": [
+0.997,
+1.006,
+0.998
+]
+},
+{
+"label": "globe_floor_274",
+"mesh": "globe_floor",
+"room": "Dress_study",
+"x": 5900.0,
+"y": 3100.0,
+"z": 50.0,
+"yaw": 110.0,
+"scale": [
+0.997,
+1.006,
+0.998
+]
+},
+{
+"label": "gramophone_26",
+"mesh": "gramophone",
+"room": "Dress_library",
+"x": 790.0,
+"y": 3730.0,
+"z": 100.0,
+"yaw": -150.0,
+"scale": [
+0.702,
+0.705,
+0.7
+]
+},
+{
+"label": "harp_181",
+"mesh": "harp",
+"room": "Dress_ballroom",
+"x": 2600.0,
+"y": 4250.0,
+"z": 148.9,
+"yaw": 180.0,
+"scale": [
+1.194,
+1.816,
+1.83
+]
+},
+{
+"label": "lamp_floor_14",
+"mesh": "lamp_floor",
+"room": "Dress_library",
+"x": 330.0,
+"y": 3700.0,
+"z": 82.6,
+"yaw": -90.0,
+"scale": [
+1.642,
+1.642,
+1.648
+]
+},
+{
+"label": "lamp_floor_15",
+"mesh": "lamp_floor",
+"room": "Dress_library",
+"x": 1700.0,
+"y": 3230.0,
+"z": 82.6,
+"yaw": -90.0,
+"scale": [
+1.642,
+1.642,
+1.648
+]
+},
+{
+"label": "lamp_floor_158",
+"mesh": "lamp_floor",
+"room": "Dress_hall",
+"x": 2780.0,
+"y": 1640.0,
+"z": 82.6,
+"yaw": -90.0,
+"scale": [
+1.642,
+1.642,
+1.648
+]
+},
+{
+"label": "lamp_floor_159",
+"mesh": "lamp_floor",
+"room": "Dress_hall",
+"x": 3220.0,
+"y": 1640.0,
+"z": 82.6,
+"yaw": -90.0,
+"scale": [
+1.642,
+1.642,
+1.648
+]
+},
+{
+"label": "lamp_floor_249",
+"mesh": "lamp_floor",
+"room": "Dress_billiard",
+"x": 4080.0,
+"y": 300.0,
+"z": 82.6,
+"yaw": -90.0,
+"scale": [
+1.642,
+1.642,
+1.648
+]
+},
+{
+"label": "lamp_floor_276",
+"mesh": "lamp_floor",
+"room": "Dress_study",
+"x": 4720.0,
+"y": 2620.0,
+"z": 82.6,
+"yaw": -90.0,
+"scale": [
+1.642,
+1.642,
+1.648
+]
+},
+{
+"label": "lamp_floor_35",
+"mesh": "lamp_floor",
+"room": "Dress_dining",
+"x": 230.0,
+"y": 1300.0,
+"z": 82.6,
+"yaw": -90.0,
+"scale": [
+1.642,
+1.642,
+1.648
+]
+},
+{
+"label": "lamp_table_110",
+"mesh": "lamp_table",
+"room": "Dress_corridor_e",
+"x": 4397.0,
+"y": 2356.5,
+"z": 112.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_111",
+"mesh": "lamp_table",
+"room": "Dress_corridor_e",
+"x": 4397.0,
+"y": 1843.5,
+"z": 112.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_112",
+"mesh": "lamp_table",
+"room": "Dress_corridor_e",
+"x": 5527.0,
+"y": 2356.5,
+"z": 112.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_113",
+"mesh": "lamp_table",
+"room": "Dress_corridor_e",
+"x": 5527.0,
+"y": 1843.5,
+"z": 112.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_134",
+"mesh": "lamp_table",
+"room": "Dress_hall",
+"x": 2043.5,
+"y": 783.0,
+"z": 112.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_135",
+"mesh": "lamp_table",
+"room": "Dress_hall",
+"x": 3956.5,
+"y": 862.0,
+"z": 112.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_20",
+"mesh": "lamp_table",
+"room": "Dress_library",
+"x": 1180.0,
+"y": 3970.0,
+"z": 107.4,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_21",
+"mesh": "lamp_table",
+"room": "Dress_library",
+"x": 330.0,
+"y": 3105.0,
+"z": 95.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_22",
+"mesh": "lamp_table",
+"room": "Dress_library",
+"x": 1680.0,
+"y": 2620.0,
+"z": 95.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_23",
+"mesh": "lamp_table",
+"room": "Dress_library",
+"x": 750.0,
+"y": 4150.0,
+"z": 95.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_254",
+"mesh": "lamp_table",
+"room": "Dress_billiard",
+"x": 4052.0,
+"y": 920.0,
+"z": 95.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_255",
+"mesh": "lamp_table",
+"room": "Dress_billiard",
+"x": 5560.0,
+"y": 650.0,
+"z": 95.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_256",
+"mesh": "lamp_table",
+"room": "Dress_billiard",
+"x": 5560.0,
+"y": 1150.0,
+"z": 95.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_268",
+"mesh": "lamp_table",
+"room": "Dress_study",
+"x": 5505.0,
+"y": 2738.0,
+"z": 108.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_269",
+"mesh": "lamp_table",
+"room": "Dress_study",
+"x": 4300.0,
+"y": 2800.0,
+"z": 95.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_75",
+"mesh": "lamp_table",
+"room": "Dress_dining",
+"x": 540.0,
+"y": 1752.8,
+"z": 105.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_76",
+"mesh": "lamp_table",
+"room": "Dress_dining",
+"x": 1580.0,
+"y": 1752.8,
+"z": 105.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_77",
+"mesh": "lamp_table",
+"room": "Dress_dining",
+"x": 712.0,
+"y": 43.5,
+"z": 112.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_78",
+"mesh": "lamp_table",
+"room": "Dress_dining",
+"x": 1212.0,
+"y": 43.5,
+"z": 112.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_86",
+"mesh": "lamp_table",
+"room": "Dress_corridor_w",
+"x": 397.0,
+"y": 2356.5,
+"z": 112.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_87",
+"mesh": "lamp_table",
+"room": "Dress_corridor_w",
+"x": 397.0,
+"y": 1843.5,
+"z": 112.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_88",
+"mesh": "lamp_table",
+"room": "Dress_corridor_w",
+"x": 1527.0,
+"y": 2356.5,
+"z": 112.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "lamp_table_89",
+"mesh": "lamp_table",
+"room": "Dress_corridor_w",
+"x": 1527.0,
+"y": 1843.5,
+"z": 112.0,
+"yaw": -90.0,
+"scale": [
+0.608,
+0.591,
+0.599
+]
+},
+{
+"label": "ottoman_258",
+"mesh": "ottoman",
+"room": "Dress_billiard",
+"x": 5720.0,
+"y": 900.0,
+"z": 19.5,
+"yaw": -90.0,
+"scale": [
+0.602,
+0.601,
+0.604
+]
+},
+{
+"label": "ottoman_8",
+"mesh": "ottoman",
+"room": "Dress_library",
+"x": 520.0,
+"y": 3400.0,
+"z": 19.5,
+"yaw": -90.0,
+"scale": [
+0.602,
+0.601,
+0.604
+]
+},
+{
+"label": "palm_potted_139",
+"mesh": "palm_potted",
+"room": "Dress_hall",
+"x": 2150.0,
+"y": 150.0,
+"z": 101.4,
+"yaw": 0.0,
+"scale": [
+2.02,
+2.022,
+2.025
+]
+},
+{
+"label": "palm_potted_140",
+"mesh": "palm_potted",
+"room": "Dress_hall",
+"x": 3850.0,
+"y": 150.0,
+"z": 101.4,
+"yaw": 0.0,
+"scale": [
+2.02,
+2.022,
+2.025
+]
+},
+{
+"label": "palm_potted_234",
+"mesh": "palm_potted",
+"room": "Dress_ballroom",
+"x": 2280.0,
+"y": 4180.0,
+"z": 101.4,
+"yaw": 0.0,
+"scale": [
+2.02,
+2.022,
+2.025
+]
+},
+{
+"label": "palm_potted_235",
+"mesh": "palm_potted",
+"room": "Dress_ballroom",
+"x": 3720.0,
+"y": 4180.0,
+"z": 101.4,
+"yaw": 0.0,
+"scale": [
+2.02,
+2.022,
+2.025
+]
+},
+{
+"label": "palm_potted_250",
+"mesh": "palm_potted",
+"room": "Dress_billiard",
+"x": 5870.0,
+"y": 1670.0,
+"z": 101.4,
+"yaw": 0.0,
+"scale": [
+2.02,
+2.022,
+2.025
+]
+},
+{
+"label": "palm_potted_281",
+"mesh": "palm_potted",
+"room": "Dress_conservatory",
+"x": 5895.0,
+"y": 4290.0,
+"z": 101.4,
+"yaw": 0.0,
+"scale": [
+2.02,
+2.022,
+2.025
+]
+},
+{
+"label": "palm_potted_282",
+"mesh": "palm_potted",
+"room": "Dress_conservatory",
+"x": 4125.0,
+"y": 4290.0,
+"z": 101.4,
+"yaw": 0.0,
+"scale": [
+2.02,
+2.022,
+2.025
+]
+},
+{
+"label": "palm_potted_283",
+"mesh": "palm_potted",
+"room": "Dress_conservatory",
+"x": 5895.0,
+"y": 3305.0,
+"z": 101.4,
+"yaw": 0.0,
+"scale": [
+2.02,
+2.022,
+2.025
+]
+},
+{
+"label": "palm_potted_284",
+"mesh": "palm_potted",
+"room": "Dress_conservatory",
+"x": 4600.0,
+"y": 4290.0,
+"z": 101.4,
+"yaw": 0.0,
+"scale": [
+2.02,
+2.022,
+2.025
+]
+},
+{
+"label": "palm_potted_285",
+"mesh": "palm_potted",
+"room": "Dress_conservatory",
+"x": 5895.0,
+"y": 3800.0,
+"z": 101.4,
+"yaw": 0.0,
+"scale": [
+2.02,
+2.022,
+2.025
+]
+},
+{
+"label": "palm_potted_286",
+"mesh": "palm_potted",
+"room": "Dress_conservatory",
+"x": 4850.0,
+"y": 4290.0,
+"z": 101.4,
+"yaw": 0.0,
+"scale": [
+2.02,
+2.022,
+2.025
+]
+},
+{
+"label": "palm_potted_287",
+"mesh": "palm_potted",
+"room": "Dress_conservatory",
+"x": 5200.0,
+"y": 4290.0,
+"z": 101.4,
+"yaw": 0.0,
+"scale": [
+2.02,
+2.022,
+2.025
+]
+},
+{
+"label": "palm_potted_288",
+"mesh": "palm_potted",
+"room": "Dress_conservatory",
+"x": 5895.0,
+"y": 3552.0,
+"z": 101.4,
+"yaw": 0.0,
+"scale": [
+2.02,
+2.022,
+2.025
+]
+},
+{
+"label": "palm_potted_289",
+"mesh": "palm_potted",
+"room": "Dress_conservatory",
+"x": 4125.0,
+"y": 3330.0,
+"z": 101.4,
+"yaw": 0.0,
+"scale": [
+2.02,
+2.022,
+2.025
+]
+},
+{
+"label": "palm_potted_80",
+"mesh": "palm_potted",
+"room": "Dress_dining",
+"x": 128.0,
+"y": 128.0,
+"z": 101.4,
+"yaw": 0.0,
+"scale": [
+2.02,
+2.022,
+2.025
+]
+},
+{
+"label": "palm_potted_81",
+"mesh": "palm_potted",
+"room": "Dress_dining",
+"x": 1872.0,
+"y": 128.0,
+"z": 101.4,
+"yaw": 0.0,
+"scale": [
+2.02,
+2.022,
+2.025
+]
+},
+{
+"label": "piano_grand_180",
+"mesh": "piano_grand",
+"room": "Dress_ballroom",
+"x": 2850.0,
+"y": 4130.0,
+"z": 152.5,
+"yaw": -160.0,
+"scale": [
+1.844,
+1.841,
+1.847
+]
+},
+{
+"label": "radio_cathedral_257",
+"mesh": "radio_cathedral",
+"room": "Dress_billiard",
+"x": 4058.0,
+"y": 955.0,
+"z": 87.5,
+"yaw": -90.0,
+"scale": [
+0.441,
+0.463,
+0.449
+]
+},
+{
+"label": "safe_270",
+"mesh": "safe",
+"room": "Dress_study",
+"x": 5923.9,
+"y": 2476.1,
+"z": 47.5,
+"yaw": 45.0,
+"scale": [
+0.882,
+0.714,
+0.948
+]
+},
+{
+"label": "screen_folding_182",
+"mesh": "screen_folding",
+"room": "Dress_ballroom",
+"x": 2410.0,
+"y": 4299.9,
+"z": 87.5,
+"yaw": 180.0,
+"scale": [
+1.748,
+1.795,
+1.747
+]
+},
+{
+"label": "screen_folding_183",
+"mesh": "screen_folding",
+"room": "Dress_ballroom",
+"x": 3590.0,
+"y": 4299.9,
+"z": 87.5,
+"yaw": 180.0,
+"scale": [
+1.748,
+1.795,
+1.747
+]
+},
+{
+"label": "screen_folding_279",
+"mesh": "screen_folding",
+"room": "Dress_study",
+"x": 4700.0,
+"y": 3079.9,
+"z": 87.5,
+"yaw": 180.0,
+"scale": [
+1.748,
+1.795,
+1.747
+]
+},
+{
+"label": "screen_folding_280",
+"mesh": "screen_folding",
+"room": "Dress_conservatory",
+"x": 4250.1,
+"y": 4099.9,
+"z": 87.5,
+"yaw": -135.0,
+"scale": [
+1.748,
+1.795,
+1.747
+]
+},
+{
+"label": "sideboard_72",
+"mesh": "sideboard",
+"room": "Dress_dining",
+"x": 480.0,
+"y": 1752.8,
+"z": 37.5,
+"yaw": 0.0,
+"scale": [
+1.797,
+1.79,
+1.803
+]
+},
+{
+"label": "sideboard_73",
+"mesh": "sideboard",
+"room": "Dress_dining",
+"x": 1520.0,
+"y": 1752.8,
+"z": 37.5,
+"yaw": 0.0,
+"scale": [
+1.797,
+1.79,
+1.803
+]
+},
+{
+"label": "sideboard_74",
+"mesh": "sideboard",
+"room": "Dress_dining",
+"x": 1952.8,
+"y": 1350.0,
+"z": 37.5,
+"yaw": -90.0,
+"scale": [
+1.797,
+1.79,
+1.803
+]
+},
+{
+"label": "sofa_chesterfield_0",
+"mesh": "sofa_chesterfield",
+"room": "Dress_library",
+"x": 520.0,
+"y": 3170.0,
+"z": 40.1,
+"yaw": 0.0,
+"scale": [
+2.097,
+1.817,
+1.906
+]
+},
+{
+"label": "sofa_chesterfield_1",
+"mesh": "sofa_chesterfield",
+"room": "Dress_library",
+"x": 520.0,
+"y": 3630.0,
+"z": 40.1,
+"yaw": 180.0,
+"scale": [
+2.097,
+1.817,
+1.906
+]
+},
+{
+"label": "sofa_chesterfield_150",
+"mesh": "sofa_chesterfield",
+"room": "Dress_hall",
+"x": 2530.0,
+"y": 680.0,
+"z": 40.1,
+"yaw": -90.0,
+"scale": [
+2.097,
+1.817,
+1.906
+]
+},
+{
+"label": "sofa_chesterfield_151",
+"mesh": "sofa_chesterfield",
+"room": "Dress_hall",
+"x": 3470.0,
+"y": 680.0,
+"z": 40.1,
+"yaw": 90.0,
+"scale": [
+2.097,
+1.817,
+1.906
+]
+},
+{
+"label": "sofa_chesterfield_152",
+"mesh": "sofa_chesterfield",
+"room": "Dress_hall",
+"x": 2620.0,
+"y": 1520.0,
+"z": 40.1,
+"yaw": 0.0,
+"scale": [
+2.097,
+1.817,
+1.906
+]
+},
+{
+"label": "sofa_chesterfield_153",
+"mesh": "sofa_chesterfield",
+"room": "Dress_hall",
+"x": 3380.0,
+"y": 1520.0,
+"z": 40.1,
+"yaw": 0.0,
+"scale": [
+2.097,
+1.817,
+1.906
+]
+},
+{
+"label": "sofa_chesterfield_2",
+"mesh": "sofa_chesterfield",
+"room": "Dress_library",
+"x": 1500.0,
+"y": 3180.0,
+"z": 40.1,
+"yaw": 180.0,
+"scale": [
+2.097,
+1.817,
+1.906
+]
+},
+{
+"label": "sofa_chesterfield_241",
+"mesh": "sofa_chesterfield",
+"room": "Dress_billiard",
+"x": 5560.0,
+"y": 900.0,
+"z": 40.1,
+"yaw": -90.0,
+"scale": [
+2.097,
+1.817,
+1.906
+]
+},
+{
+"label": "sofa_chesterfield_275",
+"mesh": "sofa_chesterfield",
+"room": "Dress_study",
+"x": 4600.0,
+"y": 2800.0,
+"z": 40.1,
+"yaw": 90.0,
+"scale": [
+2.097,
+1.817,
+1.906
+]
+},
+{
+"label": "stag_head_251",
+"mesh": "stag_head",
+"room": "Dress_billiard",
+"x": 5896.0,
+"y": 900.0,
+"z": 255.1,
+"yaw": 90.0,
+"scale": [
+1.103,
+1.096,
+1.101
+]
+},
+{
+"label": "table_console_106",
+"mesh": "table_console",
+"room": "Dress_corridor_e",
+"x": 4435.0,
+"y": 2356.5,
+"z": 40.9,
+"yaw": 180.0,
+"scale": [
+1.198,
+0.885,
+1.054
+]
+},
+{
+"label": "table_console_107",
+"mesh": "table_console",
+"room": "Dress_corridor_e",
+"x": 4435.0,
+"y": 1843.5,
+"z": 40.9,
+"yaw": 0.0,
+"scale": [
+1.198,
+0.885,
+1.054
+]
+},
+{
+"label": "table_console_108",
+"mesh": "table_console",
+"room": "Dress_corridor_e",
+"x": 5565.0,
+"y": 2356.5,
+"z": 40.9,
+"yaw": 180.0,
+"scale": [
+1.198,
+0.885,
+1.054
+]
+},
+{
+"label": "table_console_109",
+"mesh": "table_console",
+"room": "Dress_corridor_e",
+"x": 5565.0,
+"y": 1843.5,
+"z": 40.9,
+"yaw": 0.0,
+"scale": [
+1.198,
+0.885,
+1.054
+]
+},
+{
+"label": "table_console_132",
+"mesh": "table_console",
+"room": "Dress_hall",
+"x": 2043.5,
+"y": 817.0,
+"z": 40.9,
+"yaw": -90.0,
+"scale": [
+1.198,
+0.885,
+1.054
+]
+},
+{
+"label": "table_console_133",
+"mesh": "table_console",
+"room": "Dress_hall",
+"x": 3956.5,
+"y": 896.0,
+"z": 40.9,
+"yaw": 90.0,
+"scale": [
+1.198,
+0.885,
+1.054
+]
+},
+{
+"label": "table_console_36",
+"mesh": "table_console",
+"room": "Dress_dining",
+"x": 750.0,
+"y": 43.5,
+"z": 40.9,
+"yaw": 0.0,
+"scale": [
+1.198,
+0.885,
+1.054
+]
+},
+{
+"label": "table_console_37",
+"mesh": "table_console",
+"room": "Dress_dining",
+"x": 1250.0,
+"y": 43.5,
+"z": 40.9,
+"yaw": 0.0,
+"scale": [
+1.198,
+0.885,
+1.054
+]
+},
+{
+"label": "table_console_82",
+"mesh": "table_console",
+"room": "Dress_corridor_w",
+"x": 435.0,
+"y": 2356.5,
+"z": 40.9,
+"yaw": 180.0,
+"scale": [
+1.198,
+0.885,
+1.054
+]
+},
+{
+"label": "table_console_83",
+"mesh": "table_console",
+"room": "Dress_corridor_w",
+"x": 435.0,
+"y": 1843.5,
+"z": 40.9,
+"yaw": 0.0,
+"scale": [
+1.198,
+0.885,
+1.054
+]
+},
+{
+"label": "table_console_84",
+"mesh": "table_console",
+"room": "Dress_corridor_w",
+"x": 1565.0,
+"y": 2356.5,
+"z": 40.9,
+"yaw": 180.0,
+"scale": [
+1.198,
+0.885,
+1.054
+]
+},
+{
+"label": "table_console_85",
+"mesh": "table_console",
+"room": "Dress_corridor_w",
+"x": 1565.0,
+"y": 1843.5,
+"z": 40.9,
+"yaw": 0.0,
+"scale": [
+1.198,
+0.885,
+1.054
+]
+},
+{
+"label": "table_dining_42",
+"mesh": "table_dining",
+"room": "Dress_dining",
+"x": 910.0,
+"y": 900.0,
+"z": 39.0,
+"yaw": 0.0,
+"scale": [
+2.794,
+2.291,
+2.117
+]
+},
+{
+"label": "table_dining_43",
+"mesh": "table_dining",
+"room": "Dress_dining",
+"x": 1190.0,
+"y": 900.0,
+"z": 39.0,
+"yaw": 0.0,
+"scale": [
+2.794,
+2.291,
+2.117
+]
+},
+{
+"label": "table_side_10",
+"mesh": "table_side",
+"room": "Dress_library",
+"x": 1680.0,
+"y": 2620.0,
+"z": 32.5,
+"yaw": -90.0,
+"scale": [
+0.651,
+0.651,
+0.649
+]
+},
+{
+"label": "table_side_11",
+"mesh": "table_side",
+"room": "Dress_library",
+"x": 1500.0,
+"y": 2975.0,
+"z": 32.5,
+"yaw": -90.0,
+"scale": [
+0.651,
+0.651,
+0.649
+]
+},
+{
+"label": "table_side_12",
+"mesh": "table_side",
+"room": "Dress_library",
+"x": 790.0,
+"y": 3730.0,
+"z": 32.5,
+"yaw": -90.0,
+"scale": [
+0.651,
+0.651,
+0.649
+]
+},
+{
+"label": "table_side_13",
+"mesh": "table_side",
+"room": "Dress_library",
+"x": 750.0,
+"y": 4150.0,
+"z": 32.5,
+"yaw": -90.0,
+"scale": [
+0.651,
+0.651,
+0.649
+]
+},
+{
+"label": "table_side_154",
+"mesh": "table_side",
+"room": "Dress_hall",
+"x": 2530.0,
+"y": 840.0,
+"z": 32.5,
+"yaw": -90.0,
+"scale": [
+0.651,
+0.651,
+0.649
+]
+},
+{
+"label": "table_side_155",
+"mesh": "table_side",
+"room": "Dress_hall",
+"x": 3470.0,
+"y": 840.0,
+"z": 32.5,
+"yaw": -90.0,
+"scale": [
+0.651,
+0.651,
+0.649
+]
+},
+{
+"label": "table_side_156",
+"mesh": "table_side",
+"room": "Dress_hall",
+"x": 2620.0,
+"y": 1650.0,
+"z": 32.5,
+"yaw": -90.0,
+"scale": [
+0.651,
+0.651,
+0.649
+]
+},
+{
+"label": "table_side_157",
+"mesh": "table_side",
+"room": "Dress_hall",
+"x": 3380.0,
+"y": 1650.0,
+"z": 32.5,
+"yaw": -90.0,
+"scale": [
+0.651,
+0.651,
+0.649
+]
+},
+{
+"label": "table_side_179",
+"mesh": "table_side",
+"room": "Dress_gallery",
+"x": 3000.0,
+"y": 2345.0,
+"z": 532.5,
+"yaw": -90.0,
+"scale": [
+0.651,
+0.651,
+0.649
+]
+},
+{
+"label": "table_side_246",
+"mesh": "table_side",
+"room": "Dress_billiard",
+"x": 5560.0,
+"y": 650.0,
+"z": 32.5,
+"yaw": -90.0,
+"scale": [
+0.651,
+0.651,
+0.649
+]
+},
+{
+"label": "table_side_247",
+"mesh": "table_side",
+"room": "Dress_billiard",
+"x": 4052.0,
+"y": 940.0,
+"z": 32.5,
+"yaw": -90.0,
+"scale": [
+0.651,
+0.651,
+0.649
+]
+},
+{
+"label": "table_side_248",
+"mesh": "table_side",
+"room": "Dress_billiard",
+"x": 5560.0,
+"y": 1150.0,
+"z": 32.5,
+"yaw": -90.0,
+"scale": [
+0.651,
+0.651,
+0.649
+]
+},
+{
+"label": "table_side_273",
+"mesh": "table_side",
+"room": "Dress_study",
+"x": 4300.0,
+"y": 2800.0,
+"z": 32.5,
+"yaw": -90.0,
+"scale": [
+0.651,
+0.651,
+0.649
+]
+},
+{
+"label": "table_side_298",
+"mesh": "table_side",
+"room": "Dress_conservatory",
+"x": 4600.0,
+"y": 3500.0,
+"z": 32.5,
+"yaw": -90.0,
+"scale": [
+0.651,
+0.651,
+0.649
+]
+},
+{
+"label": "table_side_299",
+"mesh": "table_side",
+"room": "Dress_conservatory",
+"x": 5700.0,
+"y": 4250.0,
+"z": 32.5,
+"yaw": -90.0,
+"scale": [
+0.651,
+0.651,
+0.649
+]
+},
+{
+"label": "table_side_300",
+"mesh": "table_side",
+"room": "Dress_conservatory",
+"x": 5550.0,
+"y": 3380.0,
+"z": 32.5,
+"yaw": -90.0,
+"scale": [
+0.651,
+0.651,
+0.649
+]
+},
+{
+"label": "table_side_9",
+"mesh": "table_side",
+"room": "Dress_library",
+"x": 330.0,
+"y": 3105.0,
+"z": 32.5,
+"yaw": 0.0,
+"scale": [
+0.651,
+0.651,
+0.649
+]
+},
+{
+"label": "telephone_267",
+"mesh": "telephone",
+"room": "Dress_study",
+"x": 5505.0,
+"y": 2850.0,
+"z": 84.0,
+"yaw": -160.0,
+"scale": [
+0.221,
+0.221,
+0.22
+]
+},
+{
+"label": "trunk_steamer_164",
+"mesh": "trunk_steamer",
+"room": "Dress_hall",
+"x": 2572.4,
+"y": 190.0,
+"z": 29.9,
+"yaw": 90.0,
+"scale": [
+0.899,
+0.904,
+0.895
+]
+},
+{
+"label": "trunk_steamer_308",
+"mesh": "trunk_steamer",
+"room": "Dress_cloakroom",
+"x": 2647.6,
+"y": 160.0,
+"z": 29.9,
+"yaw": -90.0,
+"scale": [
+0.899,
+0.904,
+0.895
+]
+},
+{
+"label": "typewriter_266",
+"mesh": "typewriter",
+"room": "Dress_study",
+"x": 5500.0,
+"y": 2800.0,
+"z": 87.4,
+"yaw": 90.0,
+"scale": [
+0.32,
+0.322,
+0.321
+]
+},
+{
+"label": "umbrella_stand_143",
+"mesh": "umbrella_stand",
+"room": "Dress_hall",
+"x": 2560.0,
+"y": 540.0,
+"z": 45.0,
+"yaw": 0.0,
+"scale": [
+0.911,
+0.9,
+0.899
+]
+},
+{
+"label": "umbrella_stand_305",
+"mesh": "umbrella_stand",
+"room": "Dress_cloakroom",
+"x": 2665.0,
+"y": 70.0,
+"z": 45.0,
+"yaw": -45.0,
+"scale": [
+0.911,
+0.9,
+0.899
+]
+},
+{
+"label": "vase_flowers_114",
+"mesh": "vase_flowers",
+"room": "Dress_corridor_e",
+"x": 4469.0,
+"y": 2356.5,
+"z": 110.0,
+"yaw": -90.0,
+"scale": [
+0.563,
+0.563,
+0.56
+]
+},
+{
+"label": "vase_flowers_115",
+"mesh": "vase_flowers",
+"room": "Dress_corridor_e",
+"x": 4469.0,
+"y": 1843.5,
+"z": 110.0,
+"yaw": -90.0,
+"scale": [
+0.563,
+0.563,
+0.56
+]
+},
+{
+"label": "vase_flowers_116",
+"mesh": "vase_flowers",
+"room": "Dress_corridor_e",
+"x": 5599.0,
+"y": 2356.5,
+"z": 110.0,
+"yaw": -90.0,
+"scale": [
+0.563,
+0.563,
+0.56
+]
+},
+{
+"label": "vase_flowers_117",
+"mesh": "vase_flowers",
+"room": "Dress_corridor_e",
+"x": 5599.0,
+"y": 1843.5,
+"z": 110.0,
+"yaw": -90.0,
+"scale": [
+0.563,
+0.563,
+0.56
+]
+},
+{
+"label": "vase_flowers_168",
+"mesh": "vase_flowers",
+"room": "Dress_hall",
+"x": 3000.0,
+"y": 1150.0,
+"z": 118.0,
+"yaw": -90.0,
+"scale": [
+0.805,
+0.804,
+0.799
+]
+},
+{
+"label": "vase_flowers_169",
+"mesh": "vase_flowers",
+"room": "Dress_hall",
+"x": 2043.5,
+"y": 851.0,
+"z": 110.0,
+"yaw": -90.0,
+"scale": [
+0.563,
+0.563,
+0.56
+]
+},
+{
+"label": "vase_flowers_170",
+"mesh": "vase_flowers",
+"room": "Dress_hall",
+"x": 3956.5,
+"y": 930.0,
+"z": 110.0,
+"yaw": -90.0,
+"scale": [
+0.563,
+0.563,
+0.56
+]
+},
+{
+"label": "vase_flowers_171",
+"mesh": "vase_flowers",
+"room": "Dress_hall",
+"x": 2620.0,
+"y": 1650.0,
+"z": 89.0,
+"yaw": -90.0,
+"scale": [
+0.483,
+0.482,
+0.48
+]
+},
+{
+"label": "vase_flowers_172",
+"mesh": "vase_flowers",
+"room": "Dress_hall",
+"x": 3380.0,
+"y": 1650.0,
+"z": 89.0,
+"yaw": -90.0,
+"scale": [
+0.483,
+0.482,
+0.48
+]
+},
+{
+"label": "vase_flowers_25",
+"mesh": "vase_flowers",
+"room": "Dress_library",
+"x": 1500.0,
+"y": 2975.0,
+"z": 89.0,
+"yaw": -90.0,
+"scale": [
+0.483,
+0.482,
+0.48
+]
+},
+{
+"label": "vase_flowers_260",
+"mesh": "vase_flowers",
+"room": "Dress_billiard",
+"x": 4250.0,
+"y": 1596.0,
+"z": 133.0,
+"yaw": -90.0,
+"scale": [
+0.483,
+0.482,
+0.48
+]
+},
+{
+"label": "vase_flowers_301",
+"mesh": "vase_flowers",
+"room": "Dress_conservatory",
+"x": 4600.0,
+"y": 3500.0,
+"z": 89.0,
+"yaw": -90.0,
+"scale": [
+0.483,
+0.482,
+0.48
+]
+},
+{
+"label": "vase_flowers_302",
+"mesh": "vase_flowers",
+"room": "Dress_conservatory",
+"x": 5700.0,
+"y": 4250.0,
+"z": 89.0,
+"yaw": -90.0,
+"scale": [
+0.483,
+0.482,
+0.48
+]
+},
+{
+"label": "vase_flowers_303",
+"mesh": "vase_flowers",
+"room": "Dress_conservatory",
+"x": 5550.0,
+"y": 3380.0,
+"z": 89.0,
+"yaw": -90.0,
+"scale": [
+0.483,
+0.482,
+0.48
+]
+},
+{
+"label": "vase_flowers_68",
+"mesh": "vase_flowers",
+"room": "Dress_dining",
+"x": 1050.0,
+"y": 900.0,
+"z": 117.0,
+"yaw": -90.0,
+"scale": [
+0.805,
+0.804,
+0.799
+]
+},
+{
+"label": "vase_flowers_69",
+"mesh": "vase_flowers",
+"room": "Dress_dining",
+"x": 1952.8,
+"y": 1350.0,
+"z": 103.0,
+"yaw": -90.0,
+"scale": [
+0.563,
+0.563,
+0.56
+]
+},
+{
+"label": "vase_flowers_70",
+"mesh": "vase_flowers",
+"room": "Dress_dining",
+"x": 784.0,
+"y": 43.5,
+"z": 110.0,
+"yaw": -90.0,
+"scale": [
+0.563,
+0.563,
+0.56
+]
+},
+{
+"label": "vase_flowers_71",
+"mesh": "vase_flowers",
+"room": "Dress_dining",
+"x": 1284.0,
+"y": 43.5,
+"z": 110.0,
+"yaw": -90.0,
+"scale": [
+0.563,
+0.563,
+0.56
+]
+},
+{
+"label": "vase_flowers_90",
+"mesh": "vase_flowers",
+"room": "Dress_corridor_w",
+"x": 469.0,
+"y": 2356.5,
+"z": 110.0,
+"yaw": -90.0,
+"scale": [
+0.563,
+0.563,
+0.56
+]
+},
+{
+"label": "vase_flowers_91",
+"mesh": "vase_flowers",
+"room": "Dress_corridor_w",
+"x": 469.0,
+"y": 1843.5,
+"z": 110.0,
+"yaw": -90.0,
+"scale": [
+0.563,
+0.563,
+0.56
+]
+},
+{
+"label": "vase_flowers_92",
+"mesh": "vase_flowers",
+"room": "Dress_corridor_w",
+"x": 1599.0,
+"y": 2356.5,
+"z": 110.0,
+"yaw": -90.0,
+"scale": [
+0.563,
+0.563,
+0.56
+]
+},
+{
+"label": "vase_flowers_93",
+"mesh": "vase_flowers",
+"room": "Dress_corridor_w",
+"x": 1599.0,
+"y": 1843.5,
+"z": 110.0,
+"yaw": -90.0,
+"scale": [
+0.563,
+0.563,
+0.56
+]
+}
+]

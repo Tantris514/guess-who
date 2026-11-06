@@ -1,0 +1,85 @@
+"""Greetings / answers when a guest walks up to an NPC and talks to it (60+), instrument reactions (20+), staff lines."""
+from _lib import lines
+
+ITEMS = []
+N, S, A = "neutral", "startled", "awkward"
+
+lines(ITEMS, "greet", [
+    (None, "Bonsoir. On se connaît ?"), (None, "Tiens, vous revoilà."), (None, "Je ne crois pas que nous ayons été présentés."),
+    (None, "Votre masque est divin, vraiment."), (None, "Oh, c'est vous ! Enfin, je crois."), (None, "Bonsoir, vous connaissez nos hôtes ?"),
+    (None, "Vous cherchez quelqu'un ?"), (None, "Mes hommages les plus respectueux, cher inconnu."), (None, "Quel plaisir de vous voir ici."),
+    (None, "Vous avez l'air bien mystérieux, ce soir."), (None, "Charmant costume. Vraiment charmant."),
+    (None, "Pardon, je vous ai pris pour quelqu'un d'autre."), (None, "Ah, enfin un visage aimable. Enfin, un masque."),
+    (None, "Bonsoir. Belle tempête, n'est-ce pas ?"), (None, "Vous êtes venu par le bac, vous aussi ?"),
+    (None, "Vous dansez ? Non ? Moi non plus."), (None, "Vous tombez bien, je m'ennuyais à mourir."),
+    (None, "Je vous ai vu tout à l'heure près du buffet."), (None, "Vous avez goûté le homard ? Évitez-le."),
+    (None, "Ne restez pas planté là, venez vous joindre à nous."), (None, "On m'a parlé de vous. En bien, rassurez-vous."),
+    (None, "Vous avez une démarche que je reconnaîtrais entre mille."), (None, "Si vous cherchez le bar, c'est à gauche."),
+    (None, "Bonsoir. Vous sentez la pluie."), (None, "Mais oui, mais oui, je vous écoute."), (None, "Vous voulez quelque chose ?"),
+    (None, "Ah ! Vous m'avez fait peur.", S), (None, "Doucement, vous allez renverser mon verre.", S),
+    (None, "Encore vous ? Vous me suivez ?"), (None, "Je n'ai rien à vous dire, je ne vous connais pas."),
+    (None, "C'est gentil de venir me parler, personne ne le fait."), (None, "Un instant, je finis mon champagne."),
+    (None, "Vous avez une tache sur votre masque. Non, je plaisante."), (None, "Vous savez où est le vestiaire ?"),
+    (None, "Bonsoir ! Vous êtes de quelle famille, vous ?"), (None, "Vous avez vu passer un serveur avec des huîtres ?"),
+    (None, "Chut, j'écoute ce que disent les voisins.", "whisper"), (None, "Pas maintenant, je surveille quelqu'un.", "whisper"),
+    (None, "Vous avez l'air perdu. Moi aussi, rassurez-vous."), (None, "Joli masque. Le mien était plus cher."),
+    (None, "Comment trouvez-vous la soirée ? Ne mentez pas."), (None, "Vous voulez un conseil ? Ne goûtez pas le punch."),
+    (None, "Bonsoir, bonsoir. Excusez-moi, je cherche ma coupe."), (None, "Ah, vous tombez à pic. Tenez-moi ça une seconde."),
+    (None, "Nous nous sommes vus à Monte-Carlo, n'est-ce pas ?"), (None, "Vous avez une voix que je connais. Non ?"),
+    (None, "Vous aussi, vous fuyez le colonel ?"), (None, "On m'a dit de me méfier des gens trop aimables."),
+    (None, "Il paraît que vous savez des choses. C'est vrai ?"), (None, "Ravissant. Absolument ravissant."),
+    ("m", "Bonsoir, très chère. Ou très cher, avec ces masques on ne sait plus."), ("f", "Bonsoir, mon cher. Vous êtes en retard."),
+    ("m", "Enchanté. Je suis ravi de vous connaître, enfin, peut-être."), ("f", "Enchantée. Vous me rappelez mon premier mari."),
+    ("m", "Mes respects. Je vous offre un verre ?"), ("f", "Quelle robe ravissante ! Ah, pardon, c'est un smoking."),
+    ("m", "Vous ai-je déjà vu quelque part ? Au cercle, peut-être."), ("f", "Vous ai-je déjà vue quelque part ? À l'opéra, sans doute."),
+    ("f", "Oh, vous êtes adorable. Qui êtes-vous ?"), ("m", "Approchez, approchez, je ne mords pas. Pas avant minuit."),
+    ("f", "Ne me dites pas qui vous êtes, c'est plus amusant."), ("m", "Ah, un nouveau visage ! Quel soulagement."),
+    ("f", "Vous allez me faire rougir, à me regarder comme ça."), ("m", "Je vous préviens, je suis marié. Mais pas ce soir."),
+])
+lines(ITEMS, "piano_react", [
+    (None, "Qui massacre ce pauvre piano ?", S), (None, "Ça venait de la salle de bal, ce vacarme !", S),
+    (None, "On dirait un piano tombé dans l'escalier.", S), (None, "Quelqu'un a lâché un chat sur le clavier ?", S),
+    (None, "Si c'est de la musique moderne, je rentre au dix-neuvième siècle.", N),
+    (None, "Bravo ! Enfin, non. Surtout pas bravo.", N), (None, "Mon Dieu, mes oreilles !", S),
+    (None, "Le pianiste a fini par craquer.", N), (None, "Encore une fausse note et c'est un accord parfait.", N),
+    (None, "Ça m'a fait sursauter jusqu'au plafond.", S), (None, "Ce n'est pas Chopin, ça.", N),
+    (None, "Quelqu'un a joué du piano avec ses coudes.", N), (None, "C'est le fantôme de la salle de bal, j'en suis sûr.", N),
+    (None, "On devrait confisquer ce piano.", N), (None, "Une ouverture pour orage et casseroles.", N),
+    (None, "Je crois que le piano a quelque chose à dire.", N), (None, "Encore ce boucan ! Qui fait ça ?", S),
+    (None, "Si ça recommence, je joue du violon. Et ce sera pire.", N), (None, "Quelle virtuosité. Dans la destruction.", N),
+    (None, "C'était le tonnerre ou le piano ?", S), (None, "Ça résonne dans tout le manoir !", S),
+    (None, "Il faudra accorder ce piano. Et le pianiste.", N),
+])
+lines(ITEMS, "barman", [
+    ("m", "Qu'est-ce que je vous sers ?", N, {"voice": "s1_barman"}), ("m", "Un petit remontant, pour la tempête ?", N, {"voice": "s1_barman"}),
+    ("m", "La maison offre. Enfin, la maison ne le sait pas.", N, {"voice": "s1_barman"}),
+    ("m", "Je ne sers plus le colonel, ordre de madame.", N, {"voice": "s1_barman"}),
+    ("m", "Un cocktail spécial ? J'ai un truc qui réveille les morts.", N, {"voice": "s1_barman"}),
+    ("m", "Je vois tout, je n'entends rien, je ne dis rien.", N, {"voice": "s1_barman"}),
+    ("m", "Avec ou sans glaçons ? Sans, il n'y en a plus.", N, {"voice": "s1_barman"}),
+    ("m", "Payez quand vous voulez. Mais payez.", N, {"voice": "s1_barman"}),
+    ("m", "Le dernier verre, c'est toujours celui-là.", N, {"voice": "s1_barman"}),
+    ("m", "Vous avez une tête à prendre un double.", N, {"voice": "s1_barman"}),
+])
+lines(ITEMS, "waiter", [
+    ("m", "Une coupe de champagne, monsieur, madame ?", N, {"voice": "s3_serveur"}),
+    ("m", "Petits fours au saumon, au caviar, ou au mystère ?", N, {"voice": "s3_serveur"}),
+    ("m", "Pardon, je passe, je passe !", N, {"voice": "s3_serveur"}),
+    ("m", "Le dîner sera servi dès que la cuisine aura séché.", N, {"voice": "s3_serveur"}),
+    ("m", "Monsieur désire autre chose ?", N, {"voice": "s3_serveur"}),
+    ("f", "Un rafraîchissement, madame ?", N, {"voice": "s4_serveuse"}),
+    ("f", "Attention, le plateau est plein !", N, {"voice": "s4_serveuse"}),
+    ("f", "Il reste des huîtres, si le cœur vous en dit.", N, {"voice": "s4_serveuse"}),
+    ("f", "Madame a laissé tomber son gant.", N, {"voice": "s4_serveuse"}),
+    ("f", "Je vous apporte un parapluie ? Pour la salle de bal.", N, {"voice": "s4_serveuse"}),
+])
+lines(ITEMS, "junkie", [
+    ("m", "Psst... Vous avez de quoi... Non ? Tant pis.", N, {"voice": "s2_junkie"}),
+    ("m", "Les murs bougent, vous aussi vous les voyez ?", N, {"voice": "s2_junkie"}),
+    ("m", "Je ne suis pas là. Vous ne m'avez pas vu.", N, {"voice": "s2_junkie"}),
+    ("m", "Il y a des poissons dans le lustre. Si, si.", N, {"voice": "s2_junkie"}),
+    ("m", "Ha ha... Pardon. C'est nerveux.", N, {"voice": "s2_junkie"}),
+    ("m", "Vous avez entendu ? Non ? Moi non plus.", N, {"voice": "s2_junkie"}),
+    ("m", "Je cherche la sortie depuis mardi.", N, {"voice": "s2_junkie"}),
+    ("m", "Ne dites pas au majordome que je suis ici.", N, {"voice": "s2_junkie"}),
+])

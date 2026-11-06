@@ -1,0 +1,59 @@
+{
+ "sword_knight": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\sword_knight_trellis_s42\\sword_knight.glb|1793875299",
+  "mesh": "/Game/GW/Characters/Items/sword_knight/sword_knight/StaticMeshes/sword_knight"
+ },
+ "rifle_old": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\rifle_old_trellis_s42\\rifle_old.glb|1793870357",
+  "mesh": "/Game/GW/Characters/Items/rifle_old/rifle_old/StaticMeshes/rifle_old"
+ },
+ "smoke_grenade": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\smoke_grenade_trellis_s42\\smoke_grenade.glb|1793870624",
+  "mesh": "/Game/GW/Characters/Items/smoke_grenade/smoke_grenade/StaticMeshes/smoke_grenade"
+ },
+ "gas_canister": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\gas_canister_trellis_s42\\gas_canister.glb|1793871814",
+  "mesh": "/Game/GW/Characters/Items/gas_canister/gas_canister/StaticMeshes/gas_canister"
+ },
+ "door_trap": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\door_trap_trellis_s42\\door_trap.glb|1793869641",
+  "mesh": "/Game/GW/Characters/Items/door_trap/door_trap/StaticMeshes/door_trap"
+ },
+ "time_bomb": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\time_bomb_trellis_s42\\time_bomb.glb|1793873969",
+  "mesh": "/Game/GW/Characters/Items/time_bomb/time_bomb/StaticMeshes/time_bomb"
+ },
+ "turret_mg": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\turret_mg_trellis_s42\\turret_mg.glb|1793875779",
+  "mesh": "/Game/GW/Characters/Items/turret_mg/turret_mg/StaticMeshes/turret_mg"
+ },
+ "swap_pistol": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\swap_pistol_trellis_s42\\swap_pistol.glb|1793872904",
+  "mesh": "/Game/GW/Characters/Items/swap_pistol/swap_pistol/StaticMeshes/swap_pistol"
+ },
+ "hidden_blade": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\hidden_blade_trellis_s42\\hidden_blade.glb|1793871187",
+  "mesh": "/Game/GW/Characters/Items/hidden_blade/hidden_blade/StaticMeshes/hidden_blade"
+ },
+ "mystery_box": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\mystery_box_trellis_s42\\mystery_box.glb|1793872198",
+  "mesh": "/Game/GW/Characters/Items/mystery_box/mystery_box/StaticMeshes/mystery_box"
+ },
+ "breaker_box": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\breaker_box_trellis_s42\\breaker_box.glb|1793873473",
+  "mesh": "/Game/GW/Characters/Items/breaker_box/breaker_box/StaticMeshes/breaker_box"
+ },
+ "serving_tray": {
+  "stamp": "J:\\Projets\\Unreal_Projects\\Guess Who\\AssetGen\\models3d\\serving_tray_trellis_s42\\serving_tray.glb|1793712403",
+  "mesh": "/Game/GW/Characters/Items/serving_tray/serving_tray/StaticMeshes/serving_tray"
+ },
+ "rifle_rel": [
+  -2.828887270999836,
+  -0.296432257959621,
+  0.12190189934182438,
+  -0.4707622677498013,
+  0.022108336489431238,
+  -0.8791836647330744,
+  0.07021532871997616
+ ]
+}

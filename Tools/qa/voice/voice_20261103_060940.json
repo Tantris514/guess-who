@@ -1,0 +1,73 @@
+{
+ "lines": 28,
+ "errors": {},
+ "repeated_texts": {},
+ "repeated_idx": 0,
+ "nonverbal_back_to_back": 0,
+ "gun_line_without_gunshot": [],
+ "shout_cause_mismatch": [],
+ "ambient_conversations": 6,
+ "ambient_gap_min": 49.2,
+ "ambient_gaps_below_14s": 0,
+ "ambient_overlaps": 0,
+ "event_lines": 3,
+ "event_gap_min": 8.3,
+ "event_gaps_below_5s": 0,
+ "shouts": 4,
+ "max_shouts_per_area_12s": 2,
+ "simultaneous_voices_hist": {
+  "1": 33,
+  "2": 10
+ },
+ "max_simultaneous": 2,
+ "same_voice_at_once": 4,
+ "worst_moments": [],
+ "speakers": 17,
+ "speakers_with_two_voices": {},
+ "line_not_in_speaker_voice": [],
+ "one_voice_dialogues": [],
+ "turn_gap_min": null,
+ "turn_gap_max": null,
+ "same_speaker_twice_in_a_row": 0,
+ "conversations_cut": 0,
+ "lines_far_from_players": 0,
+ "pd_median": 666.0,
+ "by_priority": {
+  "0": 5,
+  "1": 5,
+  "2": 4,
+  "3": 7,
+  "4": 6,
+  "5": 1
+ },
+ "by_category": {
+  "1": 6,
+  "2": 4,
+  "3": 6,
+  "4": 6,
+  "7": 1,
+  "10": 3,
+  "11": 1,
+  "16": 1
+ },
+ "conversations": 0,
+ "dialogue_turns": 0,
+ "talks": 1,
+ "talk_refusals": 0,
+ "walk_overs": 3,
+ "walk_gave_up": 2,
+ "drops": {},
+ "cuts": 2,
+ "panics": {
+  "death/cause1": 5,
+  "panic/cause1": 2,
+  "panic/cause4": 1,
+  "panic/cause0": 1
+ },
+ "minutes": 3.5,
+ "lines_per_minute": 8.0,
+ "test_steps": 8,
+ "hard_failures": [
+  "same voice twice at once"
+ ]
+}
