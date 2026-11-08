@@ -116,7 +116,8 @@ bool UGWOnlineSubsystem::EnsurePlatform()
 	GConfig->GetString(TEXT("GWEOS"), TEXT("DeploymentId"), DeploymentId, GEngineIni);
 	GConfig->GetString(TEXT("GWEOS"), TEXT("ClientId"), ClientId, GEngineIni);
 	GConfig->GetString(TEXT("GWEOS"), TEXT("ClientSecret"), ClientSecret, GEngineIni);
-	GConfig->GetString(TEXT("GWEOS"), TEXT("EncryptionKey"), EncryptionKey, GEngineIni);
+	// Not "EncryptionKey": Unreal strips keys with that name from packaged configs (IniKeyDenylist in BaseGame.ini)
+	GConfig->GetString(TEXT("GWEOS"), TEXT("EosDataKey"), EncryptionKey, GEngineIni);
 	if (ProductId.IsEmpty() || ClientId.IsEmpty())
 	{
 		UE_LOG(LogGWOnline, Warning, TEXT("GWEOS: identifiers missing from the engine config"));

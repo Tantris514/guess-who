@@ -6,7 +6,7 @@ Read `../PLAN.md` first (game design, in French). The user (Québec French speak
 
 **Last one standing (the user, 2026-11-06).** There are no detectives any more: every player is a guest, the last one alive wins. Older docs and scripts still mention seekers; `IsSeeker` and `GWRole 2` are never set. Rules: `gameplay/s46_last_standing.py`, whose docstring gives the order.
 
-**Public repository (github.com/Tantris514/guess-who).** `.gitignore` is an allow-list; game content goes through Git LFS, without Epic's templates. Never publish builds (they carry the EOS keys), `GuessWho/Config/DefaultEngine.ini` or `Tools/online/eos_credentials.ini`. New keys go in `[GWEOS]` in that config, not in code. Scan before each push.
+**Public repository (github.com/Tantris514/guess-who).** `.gitignore` is an allow-list; game content goes through Git LFS, without Epic's templates. Never publish builds (they carry the EOS keys), `GuessWho/Config/DefaultEngine.ini` or `Tools/online/eos_credentials.ini`. New keys go in `[GWEOS]` in that config, not in code, under a name absent from `IniKeyDenylist` in `UE_5.8\Engine\Config\BaseGame.ini` (a key named `EncryptionKey` is stripped from packaged builds, which broke online play on 2026-11-06; it is `EosDataKey`). Scan before each push.
 
 **Editor memory (2026-11-06).** Each recompile of `BP_GW_GameMode` in the same editor adds about 10 GB, and the editor dies of memory after a few ("paging file too small", then `ConnectionResetError` and "interactive editor not found"). Restart the editor between writes that compile it. A runner's exit code 0 proves nothing: read its output.
 
